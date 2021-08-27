@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Dịch vụ | ULIBRARY</title>
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="resources/css/about-page.css" rel="stylesheet" type="text/css"/>
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/logo.png" />
+        <link rel="icon" type="image/x-icon" href="resources/images/logo.png" />
+        <link rel="stylesheet" href="resources/bootstrap/css/home.bootstrap.min.css"></link>
+        <link rel="stylesheet" href="resources/fonts/font-awesome.min.css"></link>
+        <link rel="stylesheet" href="resources/fonts/ionicons.min.css"></link>
+        <link rel="stylesheet" href="resources/css/Footer-Clean.css"></link>
+        <link rel="stylesheet" href="resources/css/Highlight-Clean.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"></link>
+        <link rel="stylesheet" href="resources/css/Login-Form-Clean.css"></link>
+        <link rel="stylesheet" href="resources/css/Media-Slider-Bootstrap-3-1.css"></link>
+        <link rel="stylesheet" href="resources/css/Media-Slider-Bootstrap-3.css"></link>
+        <link rel="stylesheet" href="resources/css/Navigation-with-Search.css"></link>
+        <link rel="stylesheet" href="resources/css/Simple-Slider.css"></link>
+    </head>
+    <body>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
+        <div class="container"><a class="navbar-brand" href="index.xhtml"><img src="resources/img/logo-full.png" height="25px"></img></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.xhtml">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="books.xhtml">Thư viện</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Dịch vụ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tin tức</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.xhtml">Liên hệ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.xhtml">Về ULibrary</a></li>
+                </ul>
+                <form class="me-auto search-form" target="_self">
+                    <div class="d-flex align-items-center"><label class="form-label d-flex mb-0" for="search-field"></label></div>
+                </form>
+            </div>
+            <div class="modal fade" role="dialog" tabindex="-1" id="signin">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Đăng nhập</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="height: 396px;">
+                            <div><label class="form-label text-center" style="width: 264px;font-weight: normal;font-style: italic;">Đăng nhập bằng</label></div><button class="btn btn-primary" type="button" style="width: 120px;"><i class="fa fa-facebook-square"></i>Fackbook</button><button class="btn btn-primary" type="button" style="color: rgb(0,0,0);background: rgb(255,255,255);border-style: solid;border-color: rgb(176,176,176);border-top-style: none;width: 120px;margin-left: 25px;"><i class="fa fa-google"></i>Google</button>
+                            <hr>
+                            <form style="margin-top: 20px;">
+                                <div class="input-group"><span class="input-group-text" style="width: 38px;background: rgb(13,110,253);"><i class="fa fa-envelope-o" style="margin-left: -2px;color: rgb(255,255,255);margin-top: -3px;"></i></span><input class="form-control" type="email" placeholder="Email"></input></div>
+                            </form>
+                            <div class="input-group" style="margin-top: 20px;"><span class="input-group-text" style="width: 38px;background: var(--bs-blue);"><i class="fa fa-lock" style="margin-left: 1px;color: rgb(255,255,255);"></i></span><input class="form-control" type="password" placeholder="Mật khẩu"></input></div>
+                            <div>
+                                <div class="form-check" style="margin-top: 8px;"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Ghi nhớ tài khoản</label></input></div>
+                            </div>
+                            <div style="margin-top: 15px;margin-left: 79px;"><button class="btn btn-primary" type="button">Đăng nhập</button></div>
+                            <div>
+                                <p class="text-center" style="margin-top: 10px;"><a href="#">Quên mật khẩu?</a></p>
+                            </div>
+                            <div>
+                                <p>Bạn chưa có tài khoản?<a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#signup">Đăng ký ngay</a></p>
+                            </div>
+                            </hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" role="dialog" tabindex="-1" id="signup">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Đăng kí thành viên</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="height: 589px;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6" style="width: 309px;"><img src="resources/img/Home%20Icons/signupform.png" style="width: 294px;"></img></div>
+                                    <div class="col">
+                                        <div><label class="form-label text-center" style="width: 427px;font-weight: normal;font-style: italic;">Đăng nhập bằng</label><button class="btn btn-primary" type="button" style="width: 120px;margin-left: 88px;"><i class="fa fa-facebook-square"></i>Fackbook</button><button class="btn btn-primary" type="button" style="color: rgb(0,0,0);background: rgb(255,255,255);border-style: solid;border-color: rgb(176,176,176);border-top-style: none;width: 120px;margin-left: 25px;margin-right: 0px;"><i class="fa fa-google"></i>Google</button>
+                                            <hr></hr>
+                                        </div>
+                                        <form style="margin-top: 20px;">
+                                            <div class="input-group"><span class="input-group-text" style="width: 38px;background: rgb(13,110,253);"><i class="fa fa-envelope-o" style="margin-left: -2px;color: rgb(255,255,255);margin-top: -3px;"></i></span><input class="form-control" type="email" placeholder="Email"></input></div>
+                                            <div class="input-group" style="margin-top: 20px;"><span class="input-group-text" style="width: 38px;background: var(--bs-blue);"><i class="fa fa-lock" style="margin-left: 1px;color: rgb(255,255,255);"></i></span><input class="form-control" type="password" placeholder="Mật khẩu"></input></div>
+                                            <div class="input-group" style="margin-top: 20px;"><span class="input-group-text" style="width: 38px;background: var(--bs-blue);"></span><input class="form-control" type="password" placeholder="Nhập lại mật khẩu"></input></div>
+                                        </form>
+                                        <form style="margin-top: 20px;">
+                                            <div class="input-group"><span class="input-group-text" style="width: 38px;background: rgb(13,110,253);"><i class="fa fa-calendar" style="margin-left: -2px;color: rgb(255,255,255);margin-top: -3px;"></i></span><input class="form-control" type="date"></input></div>
+                                            <div class="input-group" style="margin-top: 20px;"><span class="input-group-text" style="width: 38px;background: var(--bs-blue);"><i class="fa fa-phone" style="margin-left: 1px;color: rgb(255,255,255);"></i></span><input class="form-control" type="text" placeholder="Số điện thoại"></input></div>
+                                            <div class="input-group" style="margin-top: 20px;"><span class="input-group-text" style="width: 38px;background: var(--bs-blue);"><i class="fa fa-user" style="color: rgb(255,255,255);"></i></span><input class="form-control" type="text" placeholder="Họ tên"></input></div>
+                                            <div class="input-group" style="margin-top: 20px;"></div>
+                                        </form>
+                                        <div class="form-check" style="margin-top: -3px;"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Tôi đồng ý với điều khoản của ULibrary</label></input></div>
+                                        <div class="text-center" style="margin-top: 15px;margin-left: -3px;"><button class="btn btn-primary" type="button">Đăng ký</button></div>
+                                        <div>
+                                            <p class="text-center">Bạn đã có tài khoản?<a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#signin">Đăng nhập</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><a class="btn btn-light bg-primary action-button" role="button" data-bs-toggle="modal" data-bs-target="#signin">Đăng kí / Đăng nhập</a>
+        </div>
+    </nav>
+        <div style="background-image: url(resources/img/header.png)" class="about-section">
+            <h1>DỊCH VỤ THƯ VIỆN ULIBRARY</h1>
+        </div>
+        
+        <div class="content">
+            <div class="tab">
+                <button class="tablinks" onclick="openService(event, 'DKMT')" id="defaultOpen"><i class="fa fa-vcard"></i> Đăng ký mở thẻ</button>
+                <button class="tablinks" onclick="openService(event, 'MTTL')"><i class="fa fa-book"></i> Mượn trả tài liệu</button>
+                <button class="tablinks" onclick="openService(event, 'QHTP')"><i class="fa fa-money"></i> Quá hạn và tiền phạt</button>
+                <button class="tablinks" onclick="openService(event, 'YCBSTL')"><i class="fa fa-exclamation-circle"></i> Yêu cầu bổ sung tài liệu</button>
+                <button class="tablinks" onclick="openService(event, 'QTSD')"><i class="fa fa-question-circle"></i> Quy trình sử dụng</button>
+                <button class="tablinks" onclick="openService(event, 'QHTP')"><i class="fa fa-envelope"></i> Liên hệ với nhân viên</button>
+            </div>
+            <div id="DKMT" class="tabcontent">
+                <h2>ĐĂNG KÍ MỞ THẺ</h2>
+                <form>
+          <div class="container">
+            <p>Vui lòng điền form dưới đây để đăng ký mở thẻ</p>
+            <hr/>
+        
+            <label for="name"><b>Họ Tên: </b></label>
+            <input type="text" placeholder="Nhập họ và tên" name="name" id="name"></input>
+        
+            <label for="dob"><b>Ngày sinh: </b></label>
+            <input type="date" placeholder="Nhập ngày sinh" name="dob" id="dob"></input>
+        
+            <label for="gender"><b>Giới tính: </b></label> <br/>
+            <input type="radio" id="male" name="gender" value="male"></input>
+            <label for="male">Nam</label><br/>
+            <input type="radio" id="female" name="gender" value="female"></input>
+            <label for="female">Nữ</label><br/>
+            <input type="radio" id="other" name="gender" value="other"></input>
+            <label for="other">Khác</label>
+            <hr/>
+        
+            <label for="school"><b>Trường: </b></label>
+            <input type="text" placeholder="Nhập tên trường" name="school" id="school"></input>
+
+            <label for="id"><b>CMND/CCCD: </b></label>
+            <input type="number" placeholder="Nhập số CMND/CCCD" name="id" id="id"></input>
+
+            <button type="submit" class="registerbtn">ĐĂNG KÝ</button>
+          </div>
+        </form>
+            </div>
+
+            <div id="MTTL" class="tabcontent">
+                <h2>MƯỢN TRẢ TÀI LIỆU</h2>
+                <p><h4 style="display: inline">1. Tài liệu được mượn về: </h4>Sách kho mượn, giáo trình
+                <h4>2. Tài liệu không được mượn về: </h4>
+                <dl>
+                    <dt>- Luận văn, luận án, khóa luận</dt>
+                    <dt>- Báo - tạp chí</dt>
+                    <dt>- Băng đĩa</dt>
+                    <dt>- Tài liệu tra cứu (Từ điển, bách khoa toàn thư,...)</dt>
+                </dl>
+                <h4>3. Chính sách cho mượn</h4>
+                <h4 style="display: inline">3.1. Mượn tài liệu đọc tại chỗ: </h4>tối đa được mang ra 2 tài liệu.
+                <h4>3.2. Mượn sách mang về: </h4>
+                <!-- Trigger the Modal -->
+                <img src="resources/img/rules.png" id="myImg" alt="Quy định mượn sách"/>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01"/>
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+                </div>
+                <h4>Lưu ý: </h4>
+                <dl>
+                    <dt>- Số lượng tại liệu: Là những con số tối đang được phép mượn về.</dt>
+                    <dt>- Không được mượn quá 1 bản/1 nhan đề sách, giáo trình.</dt>
+                    <dt>- Tài liệu Thư viện Ulibrary quá hạn bị phạt 5000đ/ngày/1 tài liệu.</dt>
+                </dl>
+                </p>
+            </div>
+
+            <div id="QHTP" class="tabcontent">
+                <h2>QUÁ HẠN VÀ TIỀN PHẠT</h2>
+                <p>
+                <h4 style="display: inline">Xử lí vi phạm: </h4>Bạn đọc sẽ bị xử phạt bằng tiền nếu mượn tài liệu vượt quá thời gian theo quy định.
+                <h4>Mức phạt cụ thể như sau: </h4>
+                <dl>
+                    <dt>- Phạt quá hạn tài liệu: Phạt 2.000 đồng/1 tài liệu/1 ngày.</dt>
+                    <dt>- Làm hư hỏng (rách, làm ướt, viết, tẩy xóa,...), mất sách:</dt>
+                        <dd>+ Đối với sách: đền tiền phạt gấp 3 lần giá trị tài liệu.</dd>
+                        <dd>+ Đối với giáo trình: xử phạt tiền gấp 2 lần giá trị tài liệu.</dd>
+                </dl>Sau 30 ngày kể từ ngày quá hạn tài liệu mà người mượn chưa trả hoặc nộp phạt tài liệu bị quá hạn thì 
+          Thư viện sẽ gửi danh sách đến các Khoa/Bộ môn/Phòng có liên quan hỗ trợ thông báo về danh sách người 
+          mượn nợ này (Các Khoa/Bộ môn/Phòng Tổ chức hành chính, Phòng Đào tạo Sau đại học, Phòng Đào tạo Đại học, 
+          Phòng Công tác sinh viên). Nếu sau thời hạn 03 tháng kể từ ngày Thư viện và các Khoa/Bộ môn/Phòng có 
+          liên quan đã thông báo mà người mượn là sinh viên vẫn chưa trả hoặc đóng phạt tài liệu bị quá hạn thì 
+          sẽ bị xử lý bằng hình thức ngăn chặn đăng ký học phần trong học kì kế tiếp hoặc không xét tốt nghiệp (nếu 
+          là sinh viên/học viên cao học năm cuối).
+                </p>
+            </div>
+
+      <div id="YCBSTL" class="tabcontent">
+        <h2>YÊU CẦU BỔ SUNG TÀI LIỆU</h2>
+        <p></p>
+      </div>
+
+      <div id="QTSD" class="tabcontent">
+        <h2>QUY TRÌNH SỬ DỤNG</h2>
+        <p>
+          <h4 style="display: inline">1. Tài liệu hướng dẫn sử dụng thư viện</h4> (Bạn đọc vui lòng xem file đính kèm).<br/>
+          Hướng dẫn sử dụng thư viện 2020.
+          <h4>2. Một số lưu ý khi bạn đọc sử dụng tài liệu số </h4>
+          <dl>
+            <dt>- Bạn đọc cần đăng nhập bằng tài khoản chứng thực của Trường để có thể đọc tài liệu.</dt>
+            <dt>- Chỉ hỗ trợ đọc online, không hỗ trợ tải về (trừ những tài liệu do thư viện sưu tầm từ các nguồn mở khác).</dt>
+            <dt>- Đối với các tài liệu xám (Luận án, luận văn, khóa luận), những bạn đọc làm công tác nghiên cứu có nhu cầu in ấn,
+            Thư viện sẽ hỗ trợ in tối đa 10% nội dung để tiện cho việc tham khảo (Vui lòng liên hệ quầy thủ thư).</dt>
+          </dl>
+        </p>
+      </div>
+
+      <div id="LH" class="tabcontent">
+        <h2>LIỆN HỆ VỚI NHÂN VIÊN THƯ VIÊN</h2>
+      </div>
+    </div>
+    <div style="padding: 0px;margin-left: 41px;margin-right: -65px; margin-top: 300px">
+        <footer class="footer-clean"><img src="resources/img/logo-full.png" style="width: 100px;margin-left: 65px;"></img>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item" style="margin-top: 6px;">
+                        <ul>
+                            <li><a href="#">Đường Song Hành, khu phố 6, Linh Trung, Thủ Đức, TPHCM</a></li>
+                            <li><a href="#">0927938172</a></li>
+                            <li><a href="#">cs@ulibrary.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item" style="margin-top: -7px;">
+                        <h3 style="margin-top: -16px;">Về ULibrary</h3>
+                        <ul>
+                            <li><a href="#">Dịch vụ</a></li>
+                            <li><a href="#">Thư viện</a></li>
+                            <li><a href="#">Quy định - Hướng dẫn</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item" style="margin-top: -23px;">
+                        <h3>Giờ hoạt động</h3>
+                        <ul>
+                            <li><a><strong>Thứ 2 - Thứ 6:</strong> 7h00 - 21h00</a></li>
+                            <li><a><strong>Thứ 7: </strong>8h00 - 17h00</a></li>
+                            <li><a><strong>Chủ Nhật và các ngày lễ lớn:</strong> Nghỉ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social" style="margin-top: -7px;"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">Company Name © 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+        <script src="resources/js/dichvu.js" type="text/javascript"></script>
+        <script src="resources/bootstrap/js/home.bootstrap.min.js"></script>
+    </body>
+</html>
+

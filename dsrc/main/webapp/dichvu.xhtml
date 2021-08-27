@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>DỊCH VỤ | ULIBRARY</title>
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css"/>
+    </h:head>
+    <h:body>
+        <div style="background-image: url(resources/img/header.png)" class="about-section">
+            <h1>DỊCH VỤ THƯ VIỆN ULIBRARY</h1>
+        </div>
+        
+        <div class="content">
+            <div class="tab">
+                <button class="tablinks" onclick="openService(event, 'DKMT')" id="defaultOpen"><i class="fa fa-vcard"></i> Đăng ký mở thẻ</button>
+                <button class="tablinks" onclick="openService(event, 'MTTL')"><i class="fa fa-book"></i> Mượn trả tài liệu</button>
+                <button class="tablinks" onclick="openService(event, 'QHTP')"><i class="fa fa-money"></i> Quá hạn và tiền phạt</button>
+                <button class="tablinks" onclick="openService(event, 'YCBSTL')"><i class="fa fa-exclamation-circle"></i> Yêu cầu bổ sung tài liệu</button>
+                <button class="tablinks" onclick="openService(event, 'QTSD')"><i class="fa fa-question-circle"></i> Quy trình sử dụng</button>
+                <button class="tablinks" onclick="openService(event, 'QHTP')"><i class="fa fa-envelope"></i> Liên hệ với nhân viên</button>
+            </div>
+            <div id="DKMT" class="tabcontent">
+                <h2>ĐĂNG KÍ MỞ THẺ</h2>
+            </div>
+
+            <div id="MTTL" class="tabcontent">
+                <h2>MƯỢN TRẢ TÀI LIỆU</h2>
+                <p><h4 style="display: inline">1. Tài liệu được mượn về: </h4>Sách kho mượn, giáo trình
+                <h4>2. Tài liệu không được mượn về: </h4>
+                <dl>
+                    <dt>- Luận văn, luận án, khóa luận</dt>
+                    <dt>- Báo - tạp chí</dt>
+                    <dt>- Băng đĩa</dt>
+                    <dt>- Tài liệu tra cứu (Từ điển, bách khoa toàn thư,...)</dt>
+                </dl>
+                <h4>3. Chính sách cho mượn</h4>
+                <h4 style="display: inline">3.1. Mượn tài liệu đọc tại chỗ: </h4>tối đa được mang ra 2 tài liệu.
+                <h4>3.2. Mượn sách mang về: </h4>
+                <!-- Trigger the Modal -->
+                <img src="resources/img/rules.png" id="myImg" alt="Quy định mượn sách"/>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01"/>
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+                </div>
+                <h4>Lưu ý: </h4>
+                <dl>
+                    <dt>- Số lượng tại liệu: Là những con số tối đang được phép mượn về.</dt>
+                    <dt>- Không được mượn quá 1 bản/1 nhan đề sách, giáo trình.</dt>
+                    <dt>- Tài liệu Thư viện Ulibrary quá hạn bị phạt 5000đ/ngày/1 tài liệu.</dt>
+                </dl>
+                </p>
+            </div>
+
+            <div id="QHTP" class="tabcontent">
+                <h2>QUÁ HẠN VÀ TIỀN PHẠT</h2>
+                <p>
+                <h4 style="display: inline">Xử lí vi phạm: </h4>Bạn đọc sẽ bị xử phạt bằng tiền nếu mượn tài liệu vượt quá thời gian theo quy định.
+                <h4>Mức phạt cụ thể như sau: </h4>
+                <dl>
+                    <dt>- Phạt quá hạn tài liệu: Phạt 2.000 đồng/1 tài liệu/1 ngày.</dt>
+                    <dt>- Làm hư hỏng (rách, làm ướt, viết, tẩy xóa,...), mất sách:</dt>
+                        <dd>+ Đối với sách: đền tiền phạt gấp 3 lần giá trị tài liệu.</dd>
+                        <dd>+ Đối với giáo trình: xử phạt tiền gấp 2 lần giá trị tài liệu.</dd>
+                </dl>Sau 30 ngày kể từ ngày quá hạn tài liệu mà người mượn chưa trả hoặc nộp phạt tài liệu bị quá hạn thì 
+          Thư viện sẽ gửi danh sách đến các Khoa/Bộ môn/Phòng có liên quan hỗ trợ thông báo về danh sách người 
+          mượn nợ này (Các Khoa/Bộ môn/Phòng Tổ chức hành chính, Phòng Đào tạo Sau đại học, Phòng Đào tạo Đại học, 
+          Phòng Công tác sinh viên). Nếu sau thời hạn 03 tháng kể từ ngày Thư viện và các Khoa/Bộ môn/Phòng có 
+          liên quan đã thông báo mà người mượn là sinh viên vẫn chưa trả hoặc đóng phạt tài liệu bị quá hạn thì 
+          sẽ bị xử lý bằng hình thức ngăn chặn đăng ký học phần trong học kì kế tiếp hoặc không xét tốt nghiệp (nếu 
+          là sinh viên/học viên cao học năm cuối).
+                </p>
+            </div>
+
+      <div id="YCBSTL" class="tabcontent">
+        <h2>YÊU CẦU BỔ SUNG TÀI LIỆU</h2>
+        <p></p>
+      </div>
+
+      <div id="QTSD" class="tabcontent">
+        <h2>QUY TRÌNH SỬ DỤNG</h2>
+        <p>
+          <h4 style="display: inline">1. Tài liệu hướng dẫn sử dụng thư viện</h4> (Bạn đọc vui lòng xem file đính kèm).<br/>
+          Hướng dẫn sử dụng thư viện 2020.
+          <h4>2. Một số lưu ý khi bạn đọc sử dụng tài liệu số </h4>
+          <dl>
+            <dt>- Bạn đọc cần đăng nhập bằng tài khoản chứng thực của Trường để có thể đọc tài liệu.</dt>
+            <dt>- Chỉ hỗ trợ đọc online, không hỗ trợ tải về (trừ những tài liệu do thư viện sưu tầm từ các nguồn mở khác).</dt>
+            <dt>- Đối với các tài liệu xám (Luận án, luận văn, khóa luận), những bạn đọc làm công tác nghiên cứu có nhu cầu in ấn,
+            Thư viện sẽ hỗ trợ in tối đa 10% nội dung để tiện cho việc tham khảo (Vui lòng liên hệ quầy thủ thư).</dt>
+          </dl>
+        </p>
+      </div>
+
+      <div id="LH" class="tabcontent">
+        <h2>LIỆN HỆ VỚI NHÂN VIÊN THƯ VIÊN</h2>
+      </div>
+    </div>
+        <script src="resources/js/dichvu.js" type="text/javascript"></script>
+    </h:body>
+</html>
+

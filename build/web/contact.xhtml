@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Liên hệ | ULIBRARY</title>
+        <link href="resources/css/contact-page.css" rel="stylesheet" type="text/css"/>
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="resources/css/about-page.css" rel="stylesheet" type="text/css"/>
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/logo.png" />
+        <link rel="icon" type="image/x-icon" href="resources/images/logo.png" />
+        <link rel="stylesheet" href="resources/bootstrap/css/home.bootstrap.min.css"></link>
+        <link rel="stylesheet" href="resources/fonts/font-awesome.min.css"></link>
+        <link rel="stylesheet" href="resources/fonts/ionicons.min.css"></link>
+        <link rel="stylesheet" href="resources/css/Footer-Clean.css"></link>
+        <link rel="stylesheet" href="resources/css/Highlight-Clean.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"></link>
+        <link rel="stylesheet" href="resources/css/Login-Form-Clean.css"></link>
+        <link rel="stylesheet" href="resources/css/Media-Slider-Bootstrap-3-1.css"></link>
+        <link rel="stylesheet" href="resources/css/Media-Slider-Bootstrap-3.css"></link>
+        <link rel="stylesheet" href="resources/css/Navigation-with-Search.css"></link>
+        <link rel="stylesheet" href="resources/css/Simple-Slider.css"></link>
+    </head>
+    <body>
+        <ui:composition template="templates/base.xhtml">   
+            <ui:param name = "title" value = "Liên hệ" />
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+                <div>
+                    <div class="banner">
+                        <img src="resources/img/banner.png" alt="banner" width="100%" />
+                        <h2 class="banner-title">Liên hệ</h2>
+                        <!-- Breadcrumb Begin -->
+                        <ul class="breadcrumb">
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><b>Liên hệ</b></li>
+                        </ul>
+                        <!-- Breadcrumb End -->
+                    </div>
+                    <div class="container">
+                        <div class="wrapper">
+                            <!--contact and feedback container-->
+                            <div class="contact-feedback row">
+                                <!--Contact info-->
+                                <div class="contact-content col-lg-6">
+                                    <h1>Thông tin liên hệ</h1>
+                                    <div class="contact-info">                            
+                                        <p>
+                                            <img src="resources/img/contact-pg/pointer-icon.png" id="icon" /> Song hành, khu phố 6, Linh Trung, Thủ Đức, TPHCM                        
+                                        </p>
+                                        <p>
+                                            <img src="resources/img/contact-pg/email-icon.png" id="icon"/> ulibrary@gm.uit.edu.vn
+                                        </p>
+                                        <p>
+                                            <img src="resources/img/contact-pg/phone-icon.png" id="icon"/> 0102 030 405
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h5>Theo dõi tại:</h5>
+                                        <div class="social-icons">
+                                            <a href="#">
+                                                <img src="resources/img/contact-pg/facebook-logo.png" />
+                                            </a>
+                                            <a href="#">
+                                                <img src="resources/img/contact-pg/mail-app-icon.png" />
+                                            </a>
+                                            <a href="#">
+                                                <img src="resources/img/contact-pg/youtube-logo.png" />
+                                            </a>
+                                            <a href="#">
+                                                <img src="resources/img/contact-pg/instagram-logo.png" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Feedback form-->
+                                <div class="feedback-form-container col-lg-6">
+                                    <h1>Gửi chúng tôi phản hồi của bạn</h1>
+                                    <div class="feedback-form">                           
+                                        <h:form>
+                                            <label for="name">Họ và tên</label><br></br>
+                                            <input type="text" id="name" /><br></br>
+                                            <label for="mail">Email</label><br></br>
+                                            <input type="text" id="mail" /><br></br>
+                                            <label for="phonenum">Số điện thoại</label><br></br>
+                                            <input type="text" id="phonenum" /><br></br>
+                                            <label for="title">Tiêu đề</label><br></br>
+                                            <input type="text" id="title" /><br></br>
+                                            <label for="title-content">Nội dung tiêu đề</label><br></br>
+                                            <textarea name="comment" id="title-content">Nội dung...</textarea><br></br>
+                                        </h:form>
+                                    </div>                      
+                                    <a href="#">
+                                        Gửi
+                                    </a>                                                                            
+                                </div>
+                            </div>
+                            <!--Map image-->
+                            
+                        </div>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.2324288146738!2d106.80161941462345!3d10.869918392258095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527587e9ad5bf%3A0xafa66f9c8be3c91!2sUniversity%20of%20Information%20Technology%20VNU-HCM!5e0!3m2!1sen!2s!4v1624250397186!5m2!1sen!2s" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </ui:define>
+        </ui:composition>
+
+        <script src="resources/bootstrap/js/home.bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="templates/base.xhtml">  
+            <ui:param name = "title" value = "Về ULibrary" />
+            <ui:define name="carousel"></ui:define>
+            
+            <ui:define name="content">
+                <div>
+                    <div class="banner">
+                        <img src="resources/img/banner.png" alt="banner" width="100%" />
+                        <h2 class="banner-title">Về ULibrary</h2>
+                        <!-- Breadcrumb Begin -->
+                        <ul class="breadcrumb">
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><b>Về ULibrary</b></li>
+                        </ul>
+                        <!-- Breadcrumb End -->
+                    </div>
+                </div>
+                <!-- Banner End -->
+
+                <!-- Info begin-->
+                <div class="row about-content" style="background-color: #fff;">
+                    <div class="col-lg-7 d-flex flex-wrap align-content-center" >
+                        <img src="resources/img/about.png" alt=" "/>
+                    </div>
+                    <div class="col-lg-5">
+                        <h4>Giới thiệu</h4>
+                        <p>Thư viện ULibrary được thành lập theo Quyết định số 32/QĐ-ĐHCNTT-TCHC ngày 07/02/2012 với tổng diện tích sử dụng là 1.266m2 bao gồm 1 trệt, 1 lầu thuộc Khu A Tòa nhà "Giảng đường – Thư viện ". Mục tiêu phát triển của Thư viện là trở thành Thư
+                            viện hiện đại có khả năng lưu trữ, khai thác, phát triển các dịch vụ và cung cấp thông tin tư liệu đầy đủ, chính xác, hiệu quả phục vụ cho việc giảng dạy, học tập và nghiên cứu khoa học chính yếu trong lĩnh vực Công nghệ thông tin và trong
+                            các lĩnh vực có liên quan; Hòa nhập mạng thông tin trong và ngoài trường ĐH CNTT, mở rộng quan hệ trao đổi thông tin trong và ngoài nước.</p>
+                    </div>
+                </div>
+
+                <div class="row about-content ">
+                    <div class="col-lg-5">
+                        <h4>Chức năng</h4>
+                        <p>Chức năng tham mưu cho Hiệu trưởng trong việc xây dựng phương hướng, kế hoạch hoạt động dài hạn và ngắn hạn của Thư viện; 
+                            tổ chức xây dựng, quản lý và điều phối toàn bộ hệ thống thông tin, tư liệu khoa học, kỹ thuật, và phục vụ hiệu quả cho
+                            công tác nghiên cứu, giảng dạy và học tập của cán bộ và sinh viên Trường.</p>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-5">
+                        <img src="resources/img/pic3.png" alt=""/>
+                    </div>
+                </div>
+                <!-- Info end-->
+
+                <div class="info-member ">
+                    <div class="card-member card " style="width:250px ">
+                        <img class="card-img" src="resources/img/avt/avt1.png " alt="Card image" style="width:100% "/>
+                        <div class="card-body ">
+                            <a href="# " class="stretched-link ">Quang Huy</a>
+                        </div>
+                    </div>
+
+                    <div class="card-member card " style="width:250px ">
+                        <img class="card-img " src="resources/img/avt/avt2.png " alt="Card image " style="width:100% "/>
+                        <div class="card-body ">
+                            <a href="# " class="stretched-link ">Ngọc Linh</a>
+                        </div>
+                    </div>
+
+                    <div class="card-member card " style="width:250px ">
+                        <img class="card-img " src="resources/img/avt/avt3.png " alt="Card image " style="width:100% "/>
+                        <div class="card-body ">
+                            <a href="# " class="stretched-link ">Ánh Dương</a>
+                        </div>
+                    </div>
+
+                    <div class="card-member card " style="width:250px ">
+                        <img class="card-img " src="resources/img/avt/avt4.png " alt="Card image " style="width:100% "/>
+                        <div class="card-body ">
+                            <a href="# " class="stretched-link ">Xuân Hòa</a>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

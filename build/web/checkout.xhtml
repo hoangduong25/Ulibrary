@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:a="http://bootsfaces.net/ui">
+
+    <h:body>
+        <ui:composition template="templates/base.xhtml">  
+            <ui:param name = "title" value = "Xác nhận mượn sách" />
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+                <h:form>
+                    <p:dataTable var = "cart" value="#{cartBean.carts}" rows="3" paginator="true" paginatorPosition="bottom" style="width: 800px"
+                                 resizableColumns="true" resizeMode="expand" styleClass="ptable" emptyMessage="Chưa có thông tin sách"
+                                 paginatorTemplate="{FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}">
+                        <p:column style="width: 100px">
+                            <img src="resources/img/book/#{cart['cover']}" style="height: 100px"/>
+                        </p:column>
+                        <p:column>
+                            #{cart['title']}
+                        </p:column>
+                        <p:column style="width: 100px">
+                            <h:commandButton onclick="#{cartBean.removeItem(cart['bookId'])}" value="Xóa" styleClass="btn btn-danger"/>
+                        </p:column>
+                    </p:dataTable>
+                    <h:commandButton action="#{bookingBean.add()}" disabled="#{cartBean.cartEmpty}" value="Đặt mượn sách" 
+                                     style="margin: 30px 0px 30px 30px; width: 120px" styleClass="btn btn-outline-primary btn-block mt-4"/>
+                </h:form>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+

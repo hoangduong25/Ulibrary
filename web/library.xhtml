@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:a="http://bootsfaces.net/ui">
+
+    <h:body>
+        <ui:composition template="templates/base.xhtml">  
+            <ui:param name = "title" value = "Tra cứu" />
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+                <div>
+                    <div class="banner">
+                        <img src="resources/img/banner.png" alt="banner" width="100%" />
+                        <h2 class="banner-title">TRA CỨU</h2>
+                        <!-- Breadcrumb Begin -->
+                        <ul class="breadcrumb">
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><b>Tra cứu</b></li>
+                        </ul>
+                        <!-- Breadcrumb End -->
+                    </div>
+                </div>
+                <div class="section-content my-4">
+                    <div class="container">
+                        <div class="row list-book">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="filter-group">
+                                        <div class="card-header">
+                                            <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
+                                                <i class="icon-control fa fa-chevron-down"></i>
+                                                <h6 class="title">Thể loại</h6>
+                                            </a>
+                                        </div>
+                                        <div class="filter-content collapse show" id="collapse_1">
+                                            <div class="card-body">
+                                                <ul class="list-menu">
+                                                    <ui:repeat var="genre" value="#{genreBean.genres}">
+                                                        <li>
+                                                            <h:link includeViewParams="true" outcome="library?faces-redirect=true">
+                                                                <f:param name="genreid" value="#{genre.id}" />
+                                                                <h:outputText value="#{genre.name}"/>
+                                                            </h:link>
+                                                        </li>
+                                                    </ui:repeat>
+                                                </ul>
+
+                                            </div>
+                                            <!--card-body.//--> 
+                                        </div>
+                                    </div>
+                                    <!--filter-group  .//--> 
+                                    <div class="filter-group">
+                                        <div class="card-header">
+                                            <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+                                                <i class="icon-control fa fa-chevron-down"></i>
+                                                <h6 class="title">Sách được mượn nhiều </h6>
+                                            </a>
+                                        </div>
+                                        <div class="filter-content collapse show" id="collapse_2">
+                                            <div class="card-body list-format">
+                                                <ul class="list-menu">
+                                                    <ui:repeat var="byCount" value="#{bookingBean.getBookingsByCount(3)}">
+                                                        <li>
+                                                            <h:link includeViewParams="true" outcome="details?faces-redirect=true">
+                                                                <f:param name="bookid" value="#{byCount[4]}" />
+                                                                <img src="resources/img/book/#{byCount[2]}" alt="" style="width: 5rem;"/>
+                                                                <div>
+                                                                    <h5>#{byCount[1]}</h5><br/>
+                                                                    <h5 style="font-style: italic">Số lượt mượn: #{byCount[3]}</h5>
+                                                                </div>
+                                                            </h:link>
+
+                                                        </li>
+                                                        <hr/>
+                                                    </ui:repeat>
+                                                </ul>
+                                            </div>
+                                            <!--card-body.//--> 
+                                        </div>
+                                    </div>
+                                    <!--filter-group .//--> 
+                                </div>
+                                <!-- card.// -->
+                            </div>
+                            <!-- col.// -->
+                            <div class="col-md-8">
+                                <div class="pb-3">
+                                    <div class="form-inline">
+                                    </div>
+                                    <!-- sect-heading -->
+                                    <div class="product card" style="margin-top: 10px">
+                                        <h:form id="form">
+                                            <p:dataView var = "book" value="#{bookBean.books}" multiViewState="true" rows="3" paginator="true" rowsPerPageTemplate="3, 6, 9, 12, 15"
+                                                        paginatorTemplate="{FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                                                        gridIcon="pi pi-th-large" listIcon="pi pi-bars" flex="true">
+                                                <p:tooltip/>
+                                                <p:dataViewListItem>
+                                                    <div class="book-list-item" style="margin-top: 5px; margin-bottom: 5px">
+                                                        <h:link includeViewParams="true" outcome="details?faces-redirect=true">
+                                                            <f:param name="bookid" value="#{book.id}" />
+                                                            <p:graphicImage value="resources/img/book/#{book.cover}" style="width: 120px; height: 150px; object-fit: cover; margin-top: -130px"/>
+                                                        </h:link>
+                                                        <div class="book-list-detail" style="display: inline-block; margin-left: 20px; width: 550px">
+                                                            <div class="book-name" style="font-weight: bold">
+                                                                <h:link includeViewParams="true" outcome="details?faces-redirect=true" style="color: rgb(60, 60, 60)">
+                                                                    <f:param name="bookid" value="#{book.id}" />
+                                                                    #{book.title}
+                                                                </h:link>
+                                                                <br/>
+                                                            </div>
+                                                            <div class="book-description">
+                                                                <ui:repeat value="#{book.author}" var="author" varStatus="loop">
+                                                                    <h:link includeViewParams="true" outcome="library?faces-redirect=true">
+                                                                        <f:param name="authorid" value="#{author.id}" />
+                                                                        <h:outputText value="#{author.name}#{not loop.last ? ', ' : ''} "/>
+                                                                    </h:link>
+                                                                </ui:repeat>
+                                                            </div>
+                                                            <i class="pi pi-tag book-category-icon" style="margin-top: 10px"/><span
+                                                                class="book-genre"> #{book.genre.name}</span><br/>
+
+                                                            <h:outputText value="Ngôn ngữ: " style="font-weight: bold"/>
+                                                            <h:link includeViewParams="true" outcome="library?faces-redirect=true">
+                                                                <f:param name="langid" value="#{book.lang.id}" />
+                                                                <h:outputText value="#{book.lang.name}"/>
+                                                            </h:link>
+                                                            
+                                                                <br/><br/>
+                                                                <h:commandLink action="#{bookBean.addFavorite(book.id)}" disabled="#{userBean.loggedIn()}" rendered="#{!bookBean.fav}">
+                                                                    <i class="fa fa-heart-o"/>
+                                                                </h:commandLink>
+                                                                <h:commandLink action="#{bookBean.addFavorite(book.id)}" rendered="#{bookBean.fav}">
+                                                                    <i class="fa fa-heart"/>
+                                                                </h:commandLink>
+                                                                <h:commandLink action="#{cartBean.addToCart(book.id, book.title, book.cover)}" disabled="#{userBean.loggedIn()}">
+                                                                    <i class="pi pi-plus-circle" style="margin-left: 20px"/>
+                                                                </h:commandLink>
+                                                                <h:commandLink disabled="true" id="online" rendered="#{bookBean.isBookedOnline(book.id)}">
+                                                                    <i class="pi pi-book" style="margin-left: 20px"/> Có E-book
+                                                                </h:commandLink>
+                                                        </div>
+                                                    </div>
+                                                </p:dataViewListItem>
+                                            </p:dataView>
+                                        </h:form>
+                                    </div>
+                                </div>
+                                <!-- col.// -->
+                            </div>
+                        </div>
+                        <!-- container .//  -->
+                    </div>
+                </div>
+
+                <!-- Content end -->
+            </ui:define>
+        </ui:composition>
+    </h:body>
+
+</html>
+

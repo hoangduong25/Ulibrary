@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Facelet Title</title>
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css"/>        
+        <link rel="stylesheet" href="resources/bootstrap/css/home.bootstrap.min.css"></link>
+        <link rel="stylesheet" href="resources/fonts/font-awesome.min.css"></link>
+    </h:head>
+    <h:body>
+        <ui:composition template="templates/base.xhtml">
+            <!--<ui:define name="header"></ui:define>-->
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+                <div class="container ">
+                    <h:form>
+                            <p:breadCrumb style="border:none; padding-left: 2.6em">
+                                <p:menuitem value="Trang chủ" outcome="index?faces-redirect=true"/>
+                                <p:menuitem value="Tin Tức" outcome="news?faces-redirect=true"/>
+                                <p:menuitem value="Hỗ trợ độc giả trong mùa dịch COVID-19"/>
+                            </p:breadCrumb>
+                        </h:form>
+                    <div class="row news mx-0">
+                        <div class="col-md-8">
+                            <h1>Hỗ trợ độc giả trong mùa dịch COVID-19</h1>
+                            <p><i class="fa fa-calendar"></i><i> 05/06/2021 </i></p>
+                            <hr/>
+                            <figure>
+                                <img src="resources/img/news/notification.jpg" alt="thong-bao"/>
+                                <figcaption>Thông báo hỗ trợ độc giả</figcaption>
+                            </figure>
+                            <p>Nhằm hỗ trợ quý độc giả trong thời gian thực hiện chỉ thị số 15/CT-TTg của Thủ tướng Chính phủ, thư viện ULibrary xin trân trọng thông báo đến quý độc giả các kênh hỗ trợ:</p>
+                            <p>                            
+                                <dl>
+                                    <dt>- Email: cs@ulibrary.com</dt>
+                                    <dt>- Hotline: 0927938172</dt>                            
+                                </dl>  
+                                <p>ULibrary luôn tuân thủ thực hiện các biện pháp ứng phó với dịch bệnh theo yêu cầu của chính phủ.</p>
+                            </p>
+                            <p>Trân trọng thông báo.</p>
+                        </div>
+                        <div class="col-md-4 boardnews pl-5 ">
+                            <h3>Tin tức mới</h3>
+                            <hr/>
+                            <h:link class="row" outcome="review_so_do?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/so_do_bia.jpg" alt="so-do"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Ulibrary Review: Số Đỏ - Vũ Trọng Phụng</p></div>
+                            </h:link>
+                            <h:link class="row" outcome="tiemcovid?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/tiemphongcovid.jpg" alt="anh-tiem-phong-ulibrary"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Toàn bộ nhân viên thư viện ULibrary đã được tiêm Covid</p></div>
+                            </h:link>
+                            <h:link class="row" outcome="notify-reader-support?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/notification.jpg" alt="ho-tro-doc-gia"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Hỗ trợ độc giả trong mùa dịch COVID-19</p></div>
+                            </h:link>
+                        </div>
+                    </div> 
+                </div>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

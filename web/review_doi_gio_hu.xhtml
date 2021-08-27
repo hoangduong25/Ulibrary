@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Facelet Title</title>
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css"/>        
+        <link href="resources/css/review.css" rel="stylesheet" type="text/css"/>        
+        <link rel="stylesheet" href="resources/bootstrap/css/home.bootstrap.min.css"></link>
+        <link rel="stylesheet" href="resources/fonts/font-awesome.min.css"></link>
+    </h:head>
+    <h:body>
+        <ui:composition template="templates/base.xhtml">            
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+                <!-- Page Header-->
+                 <header class="masthead mb-0" style="background-image: url('resources/img/news/doi_gio_hu_bia.jpg')">
+                    <div class="container position-relative px-4 px-lg-5">
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="col-md-10 col-lg-8 col-xl-7">
+                                <div class="post-heading">
+                                    <h1>Ulibrary Review: <br/>
+                                        Đồi Gió Hú - Emily Brontë
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- Post Content-->
+                <div class="container ">
+                     <h:form>
+                        <p:breadCrumb style="border:none">
+                            <p:menuitem value="Trang chủ" outcome="index?faces-redirect=true"/>
+                            <p:menuitem value="Tin Tức" outcome="news?faces-redirect=true"/>
+                            <p:menuitem value="Ulibrary Review: 
+                                        Đồi Gió Hú - Emily Brontë"/>
+                        </p:breadCrumb>
+                        </h:form>
+                    
+                        <div class="row news justify-content-center mx-0">
+                            <div class="col-md-8">
+                            <h1>Ulibrary Review: <br/>
+                                        Đồi Gió Hú - Emily Brontë
+                                    </h1>
+                                <p><i class="far fa-calendar-alt pr-2"></i><i>21/05/2021</i></p>
+                            <hr/>
+                            <h4>Về Tác Giả</h4>
+                            <p>Emily Jane Brontë <i>(30/07/1818 – 19/12/1848)</i> là tiểu thuyết gia và là nhà thơ người Anh. Bà là người con thứ tư trong gia đình gồm sáu người con. Bà đã phải để tang mẹ khi chỉ mới ba tuổi. Hai chị lớn cùng cha khác mẹ của bà chết từ tuổi thiếu niên do bị còi cớm trong môi trường u ám, giết mòn tinh thần của trường nữ sinh họ theo học. 
+                                Chỉ một năm sau ngày <b>Đồi gió hú</b> ra đời, Emily bị nhiễm lạnh trong lễ tang của người em trai. Vào ngày 19/12/1948, bà qua đời vì bệnh lao phổi. Cô em gái Anne, không đầy một năm sau Emily mất, cũng vội đi theo chị. Cả Charlotte, người chị cả, được coi là khỏe mạnh nhất cũng không qua được ngưỡng 40. 
+                                Cha của họ, mục sư Brontë, đã phải sống để chôn cất các con và chỉ qua đời một năm sau đó. Thật cứ như mụ già Định Mệnh cay nghiệt đã dồn những đòn hằn học nhất giáng xuống gia đình tài hoa này.</p>
+                            <a href="#!"><img class="img-fluid" src="resources/img/news/emily_bronte.jpg" alt="Emily Brontë - Tranh minh họa"/></a>
+                            <span class="caption text-muted">Emily Brontë - Tranh minh họa</span>
+                            <h4>Về Đồi Gió Hú</h4>
+                            <p><b>Đồi gió hú</b> là tiểu thuyết duy nhất của Emily Brontë và được coi là một tác phẩm kinh điển của Văn học Anh.</p>
+                            <p>Toàn bộ tiểu thuyết xoay quanh bi kịch tình yêu giữa cô chủ Catherine và Heathcliff – đứa con nuôi thấp kém trong gia đình Catherine. Do những mâu thuẫn về sự khác biệt giai cấp, Catherine đã kết hôn cùng cậu chủ trang trại kế bên, Heathcliff ôm nỗi hận bỏ đi biệt tích. Nhiều năm sau, “quý ngài” Heathcliff quay lại ngôi nhà trên đồi gió hú với một kế hoạch trả thù kỹ lưỡng hòng đoạt lại người mình yêu.</p>
+                            <a href="#!"><img class="img-fluid" src="resources/img/news/catherine_heathcliff.jpg" alt="Catherine Earnshaw và Heathcliff"/></a>
+                            <span class="caption text-muted">Catherine Earnshaw và Heathcliff</span>
+                            <p>Đọc <b>Đồi gió hú</b>, có thể cảm nhận tình yêu mãnh liệt của Heathcliff dành cho Catherine. Hắn sống với tình yêu ấy, theo đuổi tình yêu ấy, chấp nhận tất cả, cũng như từ bỏ tất cả, sẵn sàng vượt qua mọi rào cản xã hội, địa vị để ở bên Catherine. Heathcliff yêu Catherine hết mình, yêu bằng tất cả những gì hắn có. Nhưng chính sự hết mình ấy là con dao hai lưỡi, là tiền đề cho lòng hận thù của Heathcliff khi tình cảm của hắn không được đền đáp lại.</p>
+                            <p>Tình yêu với Catherine thật sự đã ám ảnh cả một đời Heathcliff!</p>
+                            <p>Không chỉ về Heathcliff, trong <b>Đồi gió hú</b> ta còn thấy rất nhiều mảnh đời khác: Catherine đáng yêu nhưng hoang dại, ương ngạnh và bồng bột dẫn đến bi kịch cho chính cô và mọi người xung quanh; Edger Linton – chồng Catherine – chàng công tử gia giáo, tử tế đến mức yếu hèn, chịu đựng, nhẫn nhịn màn trả thù của Heathcliff,… Rất nhiều những nhân vật khác trong <b>Đồi gió hú</b> cũng trở thành nạn nhân của Heathcliff, bị giày vò về cả thể xác và tinh thần.</p>
+                            <p>Heathcliff giống như một biểu tượng của khao khát bản năng. Để đồng cảm được với Heathcliff, trước hết phải biết chấp nhận bản năng của mình như một phần của bản thân, và sẽ thấy chỉnh mình hiện hữu trong mạch cảm xúc và dòng suy nghĩ của Heathcliff. Ta cũng từng yêu và kháo khát chiếm hữu tình yêu, ta cũng từng cực đoan muốn thù hận, ta từng đau khổ muốn bỏ đi đến một nơi thật xa để bắt đầu lại từ đầu.</p>
+                            <p>Cuốn tiểu thuyết duy nhất của Emily, ngày nay được phần đông giới phê bình văn học đánh giá là lớn nhất trong các tác phẩm của ba chị em Brontë, nhưng vào lúc ra đời, chất dữ dội cuồng nhiệt của nó đã gây một chấn động quá mạnh đối với những chuẩn mực đạo lý thời Victoria để có thể khiến được chấp nhận dễ dàng. Những phản ứng loại ấy đã khiến Charlotte, trong lần tái bản năm 1850, đã phải lên tiếng bênh vực tác phẩm của em gái trong một lời tựa:</p>
+                            <blockquote class="blockquote">"<b>Đồi gió hú</b> được đẽo tạc trong một xưởng hoang dại bằng những dụng cụ đơn sơ, từ chất liệu mộc mạc. Nhà điêu khắc thấy một khối đá gannit trên một cánh đồng hoang quanh quẽ: nhìn kỹ chàng thấy từ tảng đá, có thể tạo một cái đầu như thế nào, man rợ, đen đúa, hung hãn; một dáng hình được đắp nặn với ít nhất  là một yếu tố của hùng vĩ – sức cường. Chàng làm việc với một cái đụ thô sơ và không theo mẫu nào ngoài thị ảnh từ những suy tư của chàng. Với thời gian và lao động, khối đá mang hình người. Và kia, nó sừng sững đứng, đồ sộ, đen đúa và cau có, nửa tượng, nửa núi đá: là tượng thì khủng khiếp và giống như quỷ; là núi đá thì hầu như đẹp, vì nó có màu xám dịu và mặc lớp rêu của đồng hoang và đám thạch nam với những chùm hoa hình chuông và hương thơm ngạt ngào của nó, vẫn thủy chung mọc sát dưới chân gã khổng lồ ấy.”</blockquote>
+                            <p>Bạn có thể tìm hiểu thêm thông tin và xem tình hình mượn tác phẩm Đồi gió hú <a href="details.xhtml">Tại Đây</a></p>
+                        </div>
+                        <div class="col-md-4 boardnews pl-5 ">
+                            <h3>Tin tức mới</h3>
+                            <hr/>
+                            <h:link class="row" outcome="review_so_do?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/so_do_bia.jpg" alt="so-do"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Ulibrary Review: Số Đỏ - Vũ Trọng Phụng</p></div>
+                            </h:link>
+                            <h:link class="row" outcome="tiemcovid?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/tiemphongcovid.jpg" alt="anh-tiem-phong-ulibrary"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Toàn bộ nhân viên thư viện ULibrary đã được tiêm Covid</p></div>
+                            </h:link>
+                            <h:link class="row" outcome="notify-reader-support?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/notification.jpg" alt="ho-tro-doc-gia"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Hỗ trợ độc giả trong mùa dịch COVID-19</p></div>
+                            </h:link>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

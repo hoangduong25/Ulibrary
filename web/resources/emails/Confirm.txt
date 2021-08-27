@@ -1,0 +1,32 @@
+        <img src="" style="width: 100%; height: 100px; margin-bottom: 50px"><h1 class="text-center">Cảm ơn bạn đã mượn sách tại ULibrary!</h1>
+        <p class="pt-4">ULibrary đã nhận được yêu cầu mượn sách của bạn và đang xử lý nhé.</p>
+        <h5 style="color:cornflowerblue">THÔNG TIN ĐƠN HÀNG #370508993 <span style="color: black; font-size:smaller; font-style: italic;">(Ngày 07/06/2021 21:00)</span> </h5>
+        <hr style="margin-top:0;">
+        <ul style="list-style-type: none;">
+            <li><b>Tên: </b> Nguyễn Quang Huy</li>
+            <li><b>Điện thoại: </b> 0256418956</li>
+            <li><b>Địa chỉ: </b> KTX khu B DHQG HCM, Đông Hòa, Dĩ An, Bình Dương</li>
+            <li><b>Email: </b> huy@gmail.com</li>
+        </ul>
+        <h5 style="color:cornflowerblue">CHI TIẾT ĐƠN SÁCH</h5>
+        <hr style="margin-top:0;">
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Tên sách</th>
+					<th>Hình thức</th>
+					<th>Hạn trả</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>d.getBook().getTitle()</td><td>Mượn online</td></tr>Không
+            </tbody>
+
+        </table>
+        <hr>
+        <div>
+            <br>
+            <p>Bạn cần được hỗ trợ ngay? Chỉ cần email
+                <a href="mailto:ulib2021@gmail.vn">ulib2021@gmail.vn</a> , hoặc gọi số điện thoại 1900-6035 (8-21h cả T7,CN). Đội ngũ ULibrary luôn sẵn sàng hỗ trợ bạn bất kì lúc nào.
+            </p>
+        </div>

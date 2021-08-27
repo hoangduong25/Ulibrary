@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <!-- Google Font -->
+        <!--<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>-->
+
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="resources/css/style.css"></link>
+    </h:head>
+    <h:body>
+        <ui:composition template="templates/base.xhtml">  
+            <ui:param name = "title" value = "Trang chủ" />
+            <ui:define name="content">
+                <div class="bg-white">
+                    <div class="slider-book py-4" style="width: 1200px; margin: auto">
+                        <div class="card">
+                            <p:carousel value="#{bookingBean.bookingsByCount}" var="byCount" responsive="true" headerText="Sách được mượn nhiều">
+                                <div class="product">
+                                    <div class="product-grid-item p-p-5">
+                                        <div class="product-grid-item-top">
+                                            <div>
+                                                <i class="pi pi-tag product-category-icon"/>
+                                                <span class="product-category">#{byCount[0]}</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-grid-item-content">
+                                            <img src="resources/img/book/#{byCount[2]}" style="height: 180px; display: block; margin-left: auto; margin-right: auto"/>
+                                            <div class="product-name" style="font-weight: bold">#{byCount[1]}</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-grid-item-bottom">
+                                        <h:outputText value="Số lần mượn: #{byCount[3]}" styleClass="product-price"/>
+                                    </div>
+                                </div>
+                            </p:carousel>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+            <!--            <ui:include src="/templates/footer.xhtml"></ui:include>
+                        <ui:include src="resources/js/main.js"></ui:include>-->
+        </ui:composition>
+    </h:body>
+</html>
+

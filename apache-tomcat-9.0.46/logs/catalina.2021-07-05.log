@@ -1,0 +1,637 @@
+05-Jul-2021 13:54:57.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+05-Jul-2021 13:54:57.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+05-Jul-2021 13:54:57.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+05-Jul-2021 13:54:57.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Jul-2021 13:54:57.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jul-2021 13:54:57.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jul-2021 13:54:57.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16
+05-Jul-2021 13:54:57.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+05-Jul-2021 13:54:57.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jul-2021 13:54:57.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:54:57.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:54:57.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jul-2021 13:54:57.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jul-2021 13:54:57.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jul-2021 13:54:57.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jul-2021 13:54:57.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jul-2021 13:54:57.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\logging.properties
+05-Jul-2021 13:54:57.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jul-2021 13:54:57.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-02OJ6L8
+05-Jul-2021 13:54:57.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jul-2021 13:54:57.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jul-2021 13:54:57.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Jul-2021 13:54:57.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:54:57.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:54:57.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\CN Java\projectjava\apache-tomcat-9.0.46\temp
+05-Jul-2021 13:54:57.544 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\cygwin64\bin;C:\Program Files\dotnet\;E:\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Users\Hokichi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hokichi\AppData\Local\GitHubDesktop\bin;C:\Users\Hokichi\AppData\Roaming\npm;C:\Users\Hokichi\spicetify-cli;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16;C:\Users\Hokichi\.jdks\openjdk-16.0.1;\bin;;E:\IntelliJ IDEA Community Edition 2021.1.1\bin;;E:\IntelliJ IDEA 2020.1\bin;;.]
+05-Jul-2021 13:54:58.646 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:54:59.470 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2748] milliseconds
+05-Jul-2021 13:54:59.617 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jul-2021 13:54:59.618 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+05-Jul-2021 13:54:59.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+05-Jul-2021 13:54:59.713 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/jsf-app-netbeans-example] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has been ignored
+05-Jul-2021 13:55:02.537 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:692)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:829)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jsf-app-netbeans-example]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [/faces/*.] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3214)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5077)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+05-Jul-2021 13:55:02.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has finished in [2,980] ms
+05-Jul-2021 13:55:02.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+05-Jul-2021 13:55:02.656 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+05-Jul-2021 13:55:15.061 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jul-2021 13:55:15.432 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+05-Jul-2021 13:55:16.413 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+05-Jul-2021 13:55:17.990 INFO [main] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+05-Jul-2021 13:55:19.570 INFO [main] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 10.0.0-RC1
+05-Jul-2021 13:55:20.591 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.5.0.Final
+05-Jul-2021 13:55:21.463 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+05-Jul-2021 13:55:21.989 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+05-Jul-2021 13:55:22.028 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+05-Jul-2021 13:55:22.029 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+05-Jul-2021 13:55:22.030 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+05-Jul-2021 13:55:22.042 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+05-Jul-2021 13:55:23.791 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH000342: Could not obtain connection to query metadata
+	java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:172)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+		at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:116)
+		at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:41)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:58)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:409)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:275)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:249)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:453)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:98)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:73)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:145)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+		at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+		at com.projectjava.HibernateUtil.getSessionFactory(HibernateUtil.java:59)
+		at com.projectjava.service.UserService.<clinit>(UserService.java:24)
+		at com.projectjava.bean.UserBean.<clinit>(UserBean.java:50)
+		at java.base/java.io.ObjectStreamClass.hasStaticInitializer(Native Method)
+		at java.base/java.io.ObjectStreamClass.computeDefaultSUID(ObjectStreamClass.java:1929)
+		at java.base/java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:290)
+		at java.base/java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:288)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+		at java.base/java.io.ObjectStreamClass.getSerialVersionUID(ObjectStreamClass.java:287)
+		at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:717)
+		at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2022)
+		at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1872)
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2179)
+		at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1689)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:495)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:453)
+		at java.base/java.util.HashMap.readObject(HashMap.java:1551)
+		at java.base/jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at java.base/java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1224)
+		at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2378)
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2212)
+		at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1689)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:495)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:453)
+		at java.base/java.util.HashMap.readObject(HashMap.java:1551)
+		at java.base/jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at java.base/java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1224)
+		at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2378)
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2212)
+		at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1689)
+		at java.base/java.io.ObjectInputStream$FieldValues.<init>(ObjectInputStream.java:2554)
+		at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2412)
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2212)
+		at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1689)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:495)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:453)
+		at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1587)
+		at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1040)
+		at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:218)
+		at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+		at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5189)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:692)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:829)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+05-Jul-2021 13:55:24.053 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+05-Jul-2021 13:55:24.236 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 08001
+05-Jul-2021 13:55:24.237 ERROR [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Public Key Retrieval is not allowed
+05-Jul-2021 13:55:24.294 SEVERE [main] org.apache.catalina.session.StandardManager.startInternal Exception loading sessions from persistent storage
+	java.lang.ExceptionInInitializerError
+		at com.projectjava.bean.UserBean.<clinit>(UserBean.java:50)
+		at java.base/java.io.ObjectStreamClass.hasStaticInitializer(Native Method)
+		at java.base/java.io.ObjectStreamClass.computeDefaultSUID(ObjectStreamClass.java:1929)
+		at java.base/java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:290)
+		at java.base/java.io.ObjectStreamClass$1.run(ObjectStreamClass.java:288)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+		at java.base/java.io.ObjectStreamClass.getSerialVersionUID(ObjectStreamClass.java:287)
+		at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:717)
+		at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2022)
+		at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1872)
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2179)
+		at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1689)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:495)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:453)
+		at java.base/java.util.HashMap.readObject(HashMap.java:1551)
+		at java.base/jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at java.base/java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1224)
+		at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2378)
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2212)
+		at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1689)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:495)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:453)
+		at java.base/java.util.HashMap.readObject(HashMap.java:1551)
+		at java.base/jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at java.base/java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1224)
+		at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2378)
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2212)
+		at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1689)
+		at java.base/java.io.ObjectInputStream$FieldValues.<init>(ObjectInputStream.java:2554)
+		at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2412)
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2212)
+		at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1689)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:495)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:453)
+		at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1587)
+		at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1040)
+		at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:218)
+		at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+		at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5189)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:692)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:829)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+		at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+		at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+		at com.projectjava.HibernateUtil.getSessionFactory(HibernateUtil.java:59)
+		at com.projectjava.service.UserService.<clinit>(UserService.java:24)
+		... 84 more
+	Caused by: org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+		at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:118)
+		at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:41)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:58)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:409)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:275)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:249)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:453)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:98)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:73)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:145)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		... 98 more
+	Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:38)
+		... 113 more
+	Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+		at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:128)
+		at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+		at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:432)
+		at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:210)
+		at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1353)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+		... 117 more
+05-Jul-2021 13:55:24.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [21,783] ms
+05-Jul-2021 13:55:24.422 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs]
+05-Jul-2021 13:55:24.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs] has finished in [196] ms
+05-Jul-2021 13:55:24.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples]
+05-Jul-2021 13:55:27.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples] has finished in [2,407] ms
+05-Jul-2021 13:55:27.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager]
+05-Jul-2021 13:55:27.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager] has finished in [182] ms
+05-Jul-2021 13:55:27.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager]
+05-Jul-2021 13:55:27.307 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager] has finished in [96] ms
+05-Jul-2021 13:55:27.307 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT]
+05-Jul-2021 13:55:27.428 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT] has finished in [120] ms
+05-Jul-2021 13:55:27.435 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:55:27.461 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [27990] milliseconds
+05-Jul-2021 13:57:06.148 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jul-2021 13:57:06.149 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:57:06.187 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jul-2021 13:57:07.362 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [projectjava] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Jul-2021 13:57:07.363 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/java.lang.Object.wait(Native Method)
+ java.base@16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+05-Jul-2021 13:57:07.371 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:57:07.423 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:57:12.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+05-Jul-2021 13:57:12.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+05-Jul-2021 13:57:12.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+05-Jul-2021 13:57:12.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Jul-2021 13:57:12.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jul-2021 13:57:12.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jul-2021 13:57:12.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16
+05-Jul-2021 13:57:12.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+05-Jul-2021 13:57:12.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jul-2021 13:57:12.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:57:12.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:57:12.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jul-2021 13:57:12.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jul-2021 13:57:12.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jul-2021 13:57:12.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jul-2021 13:57:12.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jul-2021 13:57:12.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\logging.properties
+05-Jul-2021 13:57:12.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jul-2021 13:57:12.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-02OJ6L8
+05-Jul-2021 13:57:12.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jul-2021 13:57:12.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jul-2021 13:57:12.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Jul-2021 13:57:12.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:57:12.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:57:12.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\CN Java\projectjava\apache-tomcat-9.0.46\temp
+05-Jul-2021 13:57:12.648 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\cygwin64\bin;C:\Program Files\dotnet\;E:\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Users\Hokichi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hokichi\AppData\Local\GitHubDesktop\bin;C:\Users\Hokichi\AppData\Roaming\npm;C:\Users\Hokichi\spicetify-cli;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16;C:\Users\Hokichi\.jdks\openjdk-16.0.1;\bin;;E:\IntelliJ IDEA Community Edition 2021.1.1\bin;;E:\IntelliJ IDEA 2020.1\bin;;.]
+05-Jul-2021 13:57:13.768 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:57:14.167 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2164] milliseconds
+05-Jul-2021 13:57:14.274 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jul-2021 13:57:14.275 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+05-Jul-2021 13:57:14.298 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+05-Jul-2021 13:57:14.368 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/jsf-app-netbeans-example] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has been ignored
+05-Jul-2021 13:57:16.507 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:692)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:829)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jsf-app-netbeans-example]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [/faces/*.] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3214)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5077)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+05-Jul-2021 13:57:16.660 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has finished in [2,361] ms
+05-Jul-2021 13:57:16.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+05-Jul-2021 13:57:16.664 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+05-Jul-2021 13:57:25.721 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jul-2021 13:57:26.533 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+05-Jul-2021 13:57:27.348 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+05-Jul-2021 13:57:28.835 INFO [main] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+05-Jul-2021 13:57:30.387 INFO [main] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 10.0.0-RC1
+05-Jul-2021 13:57:30.622 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [230] milliseconds.
+05-Jul-2021 13:57:30.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [14,018] ms
+05-Jul-2021 13:57:30.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs]
+05-Jul-2021 13:57:30.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs] has finished in [135] ms
+05-Jul-2021 13:57:30.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples]
+05-Jul-2021 13:57:33.689 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples] has finished in [2,871] ms
+05-Jul-2021 13:57:33.691 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager]
+05-Jul-2021 13:57:34.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager] has finished in [1,242] ms
+05-Jul-2021 13:57:34.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager]
+05-Jul-2021 13:57:35.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager] has finished in [132] ms
+05-Jul-2021 13:57:35.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT]
+05-Jul-2021 13:57:35.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT] has finished in [121] ms
+05-Jul-2021 13:57:35.195 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:57:35.224 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [21056] milliseconds
+05-Jul-2021 13:58:45.852 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jul-2021 13:58:45.853 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:58:45.908 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jul-2021 13:58:45.991 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:58:46.011 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:59:02.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+05-Jul-2021 13:59:02.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+05-Jul-2021 13:59:02.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+05-Jul-2021 13:59:02.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Jul-2021 13:59:02.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jul-2021 13:59:02.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jul-2021 13:59:02.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16
+05-Jul-2021 13:59:02.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+05-Jul-2021 13:59:02.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jul-2021 13:59:02.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:59:02.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:59:02.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jul-2021 13:59:02.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jul-2021 13:59:02.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jul-2021 13:59:02.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jul-2021 13:59:02.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jul-2021 13:59:02.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\logging.properties
+05-Jul-2021 13:59:02.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jul-2021 13:59:02.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-02OJ6L8
+05-Jul-2021 13:59:02.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jul-2021 13:59:02.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jul-2021 13:59:02.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Jul-2021 13:59:02.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:59:02.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\CN Java\projectjava\apache-tomcat-9.0.46
+05-Jul-2021 13:59:02.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\CN Java\projectjava\apache-tomcat-9.0.46\temp
+05-Jul-2021 13:59:02.709 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\cygwin64\bin;C:\Program Files\dotnet\;E:\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Users\Hokichi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hokichi\AppData\Local\GitHubDesktop\bin;C:\Users\Hokichi\AppData\Roaming\npm;C:\Users\Hokichi\spicetify-cli;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16;C:\Users\Hokichi\.jdks\openjdk-16.0.1;\bin;;E:\IntelliJ IDEA Community Edition 2021.1.1\bin;;E:\IntelliJ IDEA 2020.1\bin;;.]
+05-Jul-2021 13:59:03.595 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:59:03.944 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1830] milliseconds
+05-Jul-2021 13:59:04.118 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jul-2021 13:59:04.118 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+05-Jul-2021 13:59:04.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+05-Jul-2021 13:59:04.200 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/jsf-app-netbeans-example] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has been ignored
+05-Jul-2021 13:59:05.819 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:692)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:829)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jsf-app-netbeans-example]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [/faces/*.] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3214)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5077)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+05-Jul-2021 13:59:05.920 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has finished in [1,752] ms
+05-Jul-2021 13:59:05.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+05-Jul-2021 13:59:05.928 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+05-Jul-2021 13:59:13.045 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jul-2021 13:59:14.273 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+05-Jul-2021 13:59:15.012 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+05-Jul-2021 13:59:16.419 INFO [main] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+05-Jul-2021 13:59:18.415 INFO [main] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 10.0.0-RC1
+05-Jul-2021 13:59:18.584 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [160] milliseconds.
+05-Jul-2021 13:59:18.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [12,710] ms
+05-Jul-2021 13:59:18.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs]
+05-Jul-2021 13:59:18.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs] has finished in [126] ms
+05-Jul-2021 13:59:18.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples]
+05-Jul-2021 13:59:20.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples] has finished in [1,338] ms
+05-Jul-2021 13:59:20.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager]
+05-Jul-2021 13:59:20.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager] has finished in [111] ms
+05-Jul-2021 13:59:20.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager]
+05-Jul-2021 13:59:20.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager] has finished in [102] ms
+05-Jul-2021 13:59:20.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT]
+05-Jul-2021 13:59:20.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT] has finished in [79] ms
+05-Jul-2021 13:59:20.401 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jul-2021 13:59:20.444 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [16499] milliseconds

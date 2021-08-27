@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Facelet Title</title>
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css"/>        
+        <link rel="stylesheet" href="resources/bootstrap/css/home.bootstrap.min.css"></link>
+        <link rel="stylesheet" href="resources/fonts/font-awesome.min.css"></link>
+    </h:head>
+    <h:body>
+        <ui:composition template="templates/base.xhtml">
+            <ui:param name = "title" value = "Tin tức" />
+            <ui:define name="header"></ui:define>
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+                <div class="container ">
+                    <h:form>
+                            <p:breadCrumb style="border:none; padding-left: 2.6em">
+                                <p:menuitem value="Trang chủ" outcome="index?faces-redirect=true"/>
+                                <p:menuitem value="Tin Tức" outcome="news?faces-redirect=true"/>
+                                <p:menuitem value="Quy định về việc mượn trả tài liệu tại thư viện"/>
+                            </p:breadCrumb>
+                        </h:form>
+                    <div class="row news mx-0">
+                        <div class="col-md-8">
+                            <h1>Quy định về việc mượn trả tài liệu tại thư viện</h1>
+                            <p><i class="fa fa-calendar"></i><i> 14/05/2021 </i></p>
+                            <hr/>
+                            <h3>Quy định mượn trả tài liệu:</h3>
+                            <h4>I.MƯỢN TÀI LIỆU TRỰC TIẾP TẠI THƯ VIỆN</h4>
+                            <h5>1.Thời gian mượn - địa điểm:</h5>
+                            <dl>
+                                <dt>- Thời gian mượn: (theo giờ hành chính)</dt>
+                                <dt>- Địa điểm mượn: 
+                                    <dd>+ Tại quầy lưu hành thư viện ULibrary(Đường Song Hành, khu phố 6, Linh Trung, Thủ Đức, TPHCM).</dd>
+                                    <dd>+ Quầy lưu hành sẽ ngưng hoạt động trước giờ thư viện đóng của 15 phút.</dd>
+                                </dt>
+                            </dl>
+                            <h5>2.Thời gian trả:</h5>
+                            <dl><h:link outcome="service.xhtml">(Xem thêm tại đây)</h:link></dl>
+                            <h5>3.Yêu cầu khi mượn, trả tài liệu:</h5>
+                            <dl>
+                                <dt>- Phải xuất trình thẻ thư viện khi làm thủ tục mượn; không cho mượn thẻ hoặc sử dụng thẻ của người khác để mượn sách. </dt>
+                                <dt>- Nếu trả sách quá hạn, viết vẽ, làm rách hoặc làm mất sách sẽ bị xử lý theo quy định hiện hành của Thư viện, đồng thời thông boá cho nhà trường.</dt>
+                                <dt>- Xin hãy tra cứu đầu sách cần mượn trước khi tới làm thủ tục mượn tại đây: <h:link outcome="#">ULibrary</h:link></dt>      
+                            </dl>
+                            <h4>II.ĐĂNG KÝ MƯỢN TÀI LIỆU ONLINE</h4>
+                            <p>Trong trường hợp không thể đến Thư viện mượn trực tiếp, bạn đọc có thể đăng ký mượn tài liệu online theo các bước sau: </p>
+                            <p>1. Xin hãy tra cứu sách cần mượn tại đây: <h:link outcome="index.xhtml">ULibrary</h:link>. Sách còn được mượn khi trong “Dữ liệu xếp giá” còn số bản trong kho.</p>
+                            <p>
+                                2. Nếu đã có tài khoản hoặc đã làm thẻ thư viện, xin hãy đăng nhập vào trang của <h:link outcome="index.xhtml">thư viện ULibrary</h:link> và mượn sách online.
+                                <dl>
+                                    Hoặc gửi email đến địa chỉ cs@ulibrary.com với các thông tin sau:
+                                    <dt>- Thẻ thư viện(ảnh chụp).</dt>
+                                    <dt>- Số điện thoại.</dt>
+                                    <dt>- Địa chỉ email.</dt>
+                                    <dt>- Yêu cầu tài liệu mượn.</dt>
+                                    <dt>- Địa chỉ người nhận.</dt>
+                                </dl>
+                            </p>
+                            <p>Trân trọng thông báo.</p>
+                        </div>
+                        <div class="col-md-4 boardnews pl-5 ">
+                            <h3>Tin tức mới</h3>
+                            <hr/>
+                            <h:link class="row" outcome="review_so_do?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/so_do_bia.jpg" alt="so-do"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Ulibrary Review: Số Đỏ - Vũ Trọng Phụng</p></div>
+                            </h:link>
+                            <h:link class="row" outcome="tiemcovid?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/tiemphongcovid.jpg" alt="anh-tiem-phong-ulibrary"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Toàn bộ nhân viên thư viện ULibrary đã được tiêm Covid</p></div>
+                            </h:link>
+                            <h:link class="row" outcome="notify-reader-support?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/notification.jpg" alt="ho-tro-doc-gia"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Hỗ trợ độc giả trong mùa dịch COVID-19</p></div>
+                            </h:link>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+            <ui:define name="footer"></ui:define>
+        </ui:composition>
+    </h:body>
+</html>

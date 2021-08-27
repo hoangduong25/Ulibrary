@@ -1,0 +1,215 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+* {box-sizing: border-box}
+body {font-family: "Raleway"; margin: 0; background-color: #fafafa;}
+
+
+.about-section {
+  padding: 80px;
+  width: auto;
+  height: 250px;
+  text-align: center;
+  color: white;
+}
+.about-section h1{
+  font-size: 35px;
+}
+
+.content{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+/* Style the tab */
+.tab {
+  float: left;
+  border: none;
+  background-color: white;
+/*  width: 30%;*/
+  /*height: 342px;*/
+  padding:0px;
+    
+}
+.tab i {
+  display:inline-block;
+  margin-left:10px;
+  margin-right:5px;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: white;
+  color: black;
+  padding: 12px 16px;
+  width: 100%;
+  border: none;
+  outline: white;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  height:60px;
+  line-height:50px;
+  font-weight:600;
+  color:#888;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover, .tab button.active {
+  color: #00acee;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  border: none;
+/*  width: 70%;*/
+  border-left: none;
+  background-color: white;
+  padding: 20px 30px;
+  outline: none;
+}
+.tabcontent h2{
+  text-align: center;
+  font-size: 24px;
+  color: #FF7E67;
+}
+.tabcontent h4{
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+  font-size: 20px;
+font-weight: 500;
+}
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
+
+/*Form*/
+.container {
+  padding: 16px;
+}
+
+/*Input fields */
+.tabcontent input[type=text], input[type=date], input[type=number], input[type=mail],input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.tabcontent input[type=text]:focus, input[type=date], input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Button */
+.registerbtn {
+  font-size: 20px;
+  background-color: #00acee;
+  display: block;
+  color: white;
+  padding: 16px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  width: 30%;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
+.registerbtn:hover {
+  background-color: #0b85b6;
+}
+

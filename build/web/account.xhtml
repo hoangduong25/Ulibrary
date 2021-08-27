@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" style="margin: 0px;"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Tài khoản | ULIBRARY</title>
+        <!-- Google Font -->
+        <!--<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>-->
+
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+              />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+              />
+        <link rel="stylesheet" href="resources/css/style.css"></link>
+    </head>
+
+    <h:body>
+        <ui:composition template="templates/base.xhtml">
+            <ui:param name = "title" value = "Tài khoản" />
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+
+
+                <!-- navbar begin -->
+                <!--    <header class="sticky-top">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand px-3" href="#">
+                                <div class="row">
+                                    <img src="resources/img/library.svg" style="width: 1.6rem"/>
+                                    <div class="text-logo">
+                                        <span> U</span>Library
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.xhtml">Trang chủ <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="library.xhtml">Tra cứu</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="service.xhtml" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dịch vụ</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">Đăng kí mở thẻ</a>
+                                            <a class="dropdown-item" href="#">Mượn trả tài liệu</a>
+                                            <a class="dropdown-item" href="#">Qúa hạn và tiền phạt</a>
+                                            <a class="dropdown-item" href="#">Yêu cầu bổ sung tài liệu</a>
+                                            <a class="dropdown-item" href="#">Quy trình sử dụng</a>
+                                            <a class="dropdown-item" href="#">Liên hệ với nhân viên thư viện</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tin tức</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Liên hệ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.xhtml"> Về Ulibrary</a>
+                                    </li>
+                                </ul>
+                                <form class="form-inline my-2 my-lg-0 mr-3">
+                                    <input class="form-control" type="search" placeholder="Search" aria-label="Search"/>
+                                    <button class="btn btn-outline" type="submit"><i class="fa fa-search" style="color: #07689F;"></i></button>
+                                </form>
+                                <button type="button" class="avt dropdown">
+                                    <a class="nav-link dropdown-toggle user-icon" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="resources/img/user.png" alt="avatar"/></a>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a class="dropdown-item" href="#">Thông tin tài khoản</a>
+                                            <a class="dropdown-item" href="#">Đổi mật khẩu</a>
+                                            <a class="dropdown-item" href="#">Đăng xuất</a>
+                                        </div>
+                                </button>
+                            </div>
+                        </nav>
+                
+                    </header>-->
+                <!-- navbar end -->
+                <section>
+                    <div>
+                        <!-- Banner Begin -->
+                        <div>
+                            <div class="banner">
+                                <img src="resources/img/banner.png" alt="banner" width="100%" />
+                                <h2 class="banner-title">QUẢN LÍ TÀI KHOẢN</h2>
+                                <!-- Breadcrumb Begin -->
+                                <ul class="breadcrumb">
+                                    <li><a href="#">Trang chủ</a></li>
+                                    <li><b>Tài khoản</b></li>
+                                </ul>
+                                <!-- Breadcrumb End -->
+                            </div>
+                        </div>
+                        <!-- Banner End -->
+
+
+                        <div class="container">
+                            <div class="row profile">
+                                <div class="col-md-3 px-0">
+                                    <div class="avatar">
+                                        <img src="resources/img/user.png" alt="avatar"/>
+                                        <h5 class="mt-3">Nguyễn Hoa</h5>
+                                        <p>hoanghoa1234@gmail.com</p>
+                                        <!--                                        <a href="#"><button class="btn btn-dark"><i class="fas fa-edit"></i> Chỉnh sửa</button></a>-->
+                                    </div>
+                                </div>
+
+                                <div class="col-md-9">
+                                    <div class="profile-info">
+                                        <h5><i class="fas fa-id-card"></i><b> Số thẻ : </b><i>1234560001</i></h5>
+                                        <hr/>
+                                        <div class="row mt-md-4 flex">
+                                            <div class="col-md-6">
+                                                <h6>Họ tên</h6>
+                                                <p:inplace editor="true">
+                                                    <p:inputText value="Nguyễn Hoàng Hoa" required="true" label="text"/>
+                                                </p:inplace>
+                                                <h6>Email</h6>
+                                                <p:inplace editor="true">
+                                                    <p:inputText value="hoanghoa1234@gmail.com" required="true" label="text"/>
+                                                </p:inplace>
+                                                
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h6>Số điện thoại</h6>
+                                                <p:inplace editor="true">
+                                                    <p:inputText value="01558469754" required="true" label="text"/>
+                                                </p:inplace>
+                                                
+                                                <h6>Địa chỉ</h6>
+                                                <p:inplace editor="true">
+                                                    <p:inputText value="DHCNTT khu phố 6, phường Linh Trung, Thủ Đức" required="true" label="text"/>
+                                                </p:inplace>
+                                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="account profile">
+                                <!-- Nav pills -->
+                                <ul class="nav nav-pills" role="tablist">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="pill" href="#history">Lịch sử mượn sách</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#favorite">Yêu thích</a>
+                                    </li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div id="history" class="container tab-pane active table-responsive-md"><br/>
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Mã sách</th>
+                                                    <th></th>
+                                                    <th>Thông tin sách</th>
+                                                    <th>Ngày mượn</th>
+                                                    <th>Hạn trả</th>
+                                                    <th>Nhắc nhở</th>
+                                                    <th>Tình trạng</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td><img src="resources/img/book/Java.jpg" alt="banner" width="110em" height="145em"/></td>
+                                                    <td>Java: A beginer's guide eight edition</td>
+                                                    <td>22/05/2021</td>
+                                                    <td>22/06/2021</td>
+                                                    <td>20/06/2021 <br/>8:00 AM<span class="iconify" data-inline="false" data-icon="bx:bxs-edit-alt" style="font-size: 24px;"></span></td>
+                                                    <td>Đang mượn</td>
+                                                    <!-- <td><a href="#">Gia hạn</a></td> -->
+                                                    <td>
+                                                        <!-- Button to Open the Modal -->
+                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Gia hạn</button>
+
+                                                        <!-- The Modal -->
+                                                        <div class="modal fade" id="myModal">
+                                                            <div class="modal-dialog modal-dialog-centered">
+                                                                <div class="modal-content">
+                                                                    <!-- Modal Header -->
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">GIA HẠN MƯỢN SÁCH</h5>
+                                                                        <button type="button" class="close" data-dismiss="modal">&#215;</button>
+                                                                    </div>
+
+                                                                    <!-- Modal body -->
+                                                                    <div class="modal-body">
+                                                                        Bạn đã gia hạn thành công. Thời hạn trả là ngày 30/06/2021.
+                                                                    </div>
+
+                                                                    <!-- Modal footer -->
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>002</td>
+                                                    <td><img src="resources/img/book/Java.jpg" alt="banner" width="110em" height="145em"/></td>
+                                                    <td>Java: A beginer's guide eight edition</td>
+                                                    <td>22/05/2021</td>
+                                                    <td>22/06/2021</td>
+                                                    <td>20/06/2021 <br/>8:00 AM<span class="iconify" data-inline="false" data-icon="bx:bxs-edit-alt" style="font-size: 24px;"></span></td>
+                                                    <td>Đang mượn</td>
+                                                    <td>
+                                                        <!-- Button to Open the Modal -->
+                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Gia hạn</button>
+
+                                                        <!-- The Modal -->
+                                                        <div class="modal fade" id="myModal1">
+                                                            <div class="modal-dialog modal-dialog-centered">
+                                                                <div class="modal-content">
+                                                                    <!-- Modal Header -->
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">GIA HẠN MƯỢN SÁCH</h5>
+                                                                        <button type="button" class="close" data-dismiss="modal">&#215;</button>
+                                                                    </div>
+
+                                                                    <!-- Modal body -->
+                                                                    <div class="modal-body">
+                                                                        Số lần gia hạn đã hết!
+                                                                    </div>
+
+                                                                    <!-- Modal footer -->
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>003</td>
+                                                    <td><img src="resources/img/book/Java.jpg" alt="banner" width="110em" height="145em"/></td>
+                                                    <td>Java: A beginer's guide eight edition</td>
+                                                    <td>22/05/2021</td>
+                                                    <td>22/06/2021</td>
+                                                    <td>20/06/2021 <br/>8:00 AM<span class="iconify" data-inline="false" data-icon="bx:bxs-edit-alt" style="font-size: 24px;"></span></td>
+                                                    <td>Đã trả</td>
+                                                    <td>
+                                                        <!-- Button to Open the Modal -->
+                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Gia hạn</button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div id="favorite" class="container tab-pane fade"><br/>
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>STT</th>
+                                                    <th></th>
+                                                    <th>Thông tin sách</th>
+                                                    <th>Tác giả</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td><img src="resources/img/book/Java.jpg" alt="banner" width="110em" height="145em"/></td>
+                                                    <td>Java: A beginer's guide eight edition</td>
+                                                    <td>Herbert Schidlt</td>
+                                                    <td><i class="fa fa-heart" style="color: red; font-size: 1.5em;"></i> <i class="fa fa-cart-plus pl-3" style="font-size: 1.5em;"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>002</td>
+                                                    <td><img src="resources/img/book/Java.jpg" alt="banner" width="110em" height="145em"/></td>
+                                                    <td>Java: A beginer's guide eight edition
+                                                    </td>
+                                                    <td>Herbert Schidlt</td>
+                                                    <td><i class="fa fa-heart" style="color: red; font-size: 1.5em;"></i> <i class="fa fa-cart-plus pl-3" style="font-size: 1.5em;"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>003</td>
+                                                    <td><img src="resources/img/book/Java.jpg" alt="banner" width="110em" height="145em"/></td>
+                                                    <td>Java: A beginer's guide eight edition
+                                                    </td>
+                                                    <td>Herbert Schidlt</td>
+                                                    <td><i class="fa fa-heart" style="color: red; font-size: 1.5em;"></i> <i class="fa fa-cart-plus pl-3" style="font-size: 1.5em;"></i>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </ui:define>
+        </ui:composition>
+        <!-- Footer begin -->
+        <footer>
+            <div class="container">
+                <div class="footer-content row">
+                    <div class="col-md-3 col-sm-6 col-xs-6 footer-item">
+                        <a href="#">
+                            <div class="row">
+                                <img src="resources/img/library.svg" style="width: 3.5rem"/>
+                                <div class="text-logo">
+                                    <span> U</span>Library
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="pt-3">
+                            <li><i class="fas fa-map-marker-alt"></i> ĐH CNTT khu phố 6, Linh Trung, Thủ Đức</li>
+                            <li><i class="fas fa-envelope"></i> nhom26@gmail.com </li>
+                            <li><i class="fas fa-phone"></i> 0543698429 </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 footer-item ">
+                        <h4>Về ULibrary</h4>
+                        <hr/>
+                        <ul>
+                            <li><a href="service.html ">Dịch vụ</a></li>
+                            <li><a href="library.html">Thư viện</a></li>
+                            <li><a href="# ">Quy định - Hướng dẫn</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 footer-item ">
+                        <h4>Giờ hoạt động</h4>
+                        <hr/>
+                        <ul>
+                            <li><strong>Thứ 2 - Thứ 6:</strong> 7h00 - 21h00</li>
+                            <li><strong>Thứ 7: </strong>8h00 - 17h00</li>
+                            <li><strong>Chủ Nhật và các ngày lễ lớn:</strong> Nghỉ</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 footer-item-social ">
+                        <h4>Theo dõi tại</h4>
+                        <hr/>
+                        <ul>
+                            <li><a href="#"><span class="iconify" data-inline="false" data-icon="logos:facebook" style="font-size: 40px;"></span></a></li>
+                            <li><a href="#"><span class="iconify" data-inline="false" data-icon="logos:twitter" style="font-size: 40px;"></span></a></li>
+                            <li>
+                                <a href="#"><img src="resources/img/instagram-icon.svg" alt=" " style="width: 40px; "/></a>
+                            </li>
+                            <li><a href="#"><span class="iconify" data-inline="false" data-icon="grommet-icons:google" style="font-size: 40px;"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cpy-right">
+                <p>© 2021 ULibrary. All rights reserved
+                </p>
+            </div>
+
+        </footer>
+
+        <!-- Footer end -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="main.js "></script>
+    </h:body>
+
+</html>

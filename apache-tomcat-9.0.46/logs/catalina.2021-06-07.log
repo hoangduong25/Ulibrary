@@ -1,0 +1,1308 @@
+07-Jun-2021 14:58:38.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+07-Jun-2021 14:58:38.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+07-Jun-2021 14:58:38.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+07-Jun-2021 14:58:38.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jun-2021 14:58:38.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jun-2021 14:58:38.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jun-2021 14:58:38.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16
+07-Jun-2021 14:58:38.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+07-Jun-2021 14:58:38.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2021 14:58:38.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 14:58:38.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 14:58:38.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jun-2021 14:58:38.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jun-2021 14:58:38.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jun-2021 14:58:38.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jun-2021 14:58:38.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jun-2021 14:58:38.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\logging.properties
+07-Jun-2021 14:58:38.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2021 14:58:38.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-02OJ6L8
+07-Jun-2021 14:58:38.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2021 14:58:38.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2021 14:58:38.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jun-2021 14:58:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 14:58:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 14:58:38.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\CN Java\projectjava\apache-tomcat-9.0.46\temp
+07-Jun-2021 14:58:38.177 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\cygwin64\bin;C:\Program Files\dotnet\;E:\QT Lite\QTSystem;E:\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Users\Hokichi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hokichi\AppData\Local\GitHubDesktop\bin;C:\Users\Hokichi\AppData\Roaming\npm;C:\Users\Hokichi\spicetify-cli;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16;C:\Users\Hokichi\.jdks\openjdk-16.0.1;\bin;;E:\IntelliJ IDEA Community Edition 2021.1.1\bin;;E:\IntelliJ IDEA 2020.1\bin;;.]
+07-Jun-2021 14:58:38.944 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 14:58:39.241 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1978] milliseconds
+07-Jun-2021 14:58:39.402 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2021 14:58:39.403 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+07-Jun-2021 14:58:40.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs]
+07-Jun-2021 14:58:40.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs] has finished in [673] ms
+07-Jun-2021 14:58:40.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples]
+07-Jun-2021 14:58:42.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples] has finished in [1,378] ms
+07-Jun-2021 14:58:42.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager]
+07-Jun-2021 14:58:42.350 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager] has finished in [136] ms
+07-Jun-2021 14:58:42.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager]
+07-Jun-2021 14:58:42.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager] has finished in [103] ms
+07-Jun-2021 14:58:42.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT]
+07-Jun-2021 14:58:42.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT] has finished in [81] ms
+07-Jun-2021 14:58:42.542 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 14:58:42.561 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3318] milliseconds
+07-Jun-2021 14:58:46.524 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+07-Jun-2021 14:58:46.528 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+07-Jun-2021 14:58:48.257 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2021 14:58:48.497 INFO [http-nio-8080-exec-9] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+07-Jun-2021 14:58:48.794 INFO [http-nio-8080-exec-9] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-Jun-2021 14:58:49.715 INFO [http-nio-8080-exec-9] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+07-Jun-2021 14:58:50.528 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [4,004] ms
+07-Jun-2021 14:58:50.535 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/projectjava]] after start() had already been called. The second call will be ignored.
+07-Jun-2021 14:58:53.501 INFO [http-nio-8080-exec-1] com.sun.faces.application.view.ViewScopeManager.<init> CDI @ViewScoped bean functionality unavailable
+07-Jun-2021 16:04:49.247 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/projectjava]
+07-Jun-2021 16:04:53.852 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+07-Jun-2021 16:04:53.855 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+07-Jun-2021 16:04:55.002 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2021 16:04:55.125 INFO [http-nio-8080-exec-9] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+07-Jun-2021 16:04:55.292 INFO [http-nio-8080-exec-9] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-Jun-2021 16:04:55.704 INFO [http-nio-8080-exec-9] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+07-Jun-2021 16:04:56.145 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [2,293] ms
+07-Jun-2021 16:04:56.148 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/projectjava]] after start() had already been called. The second call will be ignored.
+07-Jun-2021 16:04:57.580 INFO [http-nio-8080-exec-12] com.sun.faces.application.view.ViewScopeManager.<init> CDI @ViewScoped bean functionality unavailable
+07-Jun-2021 16:12:32.454 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/projectjava]
+07-Jun-2021 16:12:36.133 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+07-Jun-2021 16:12:36.134 WARNING [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+07-Jun-2021 16:12:37.354 INFO [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2021 16:12:37.556 INFO [http-nio-8080-exec-13] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+07-Jun-2021 16:12:37.701 INFO [http-nio-8080-exec-13] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-Jun-2021 16:12:38.223 INFO [http-nio-8080-exec-13] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+07-Jun-2021 16:12:39.235 INFO [36] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [3,102] ms
+07-Jun-2021 16:12:39.243 INFO [http-nio-8080-exec-16] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/projectjava]] after start() had already been called. The second call will be ignored.
+07-Jun-2021 16:12:45.079 INFO [http-nio-8080-exec-18] com.sun.faces.application.view.ViewScopeManager.<init> CDI @ViewScoped bean functionality unavailable
+07-Jun-2021 16:46:26.733 1100 [http-nio-8080-exec-29] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 16:46:26.734 1100 [http-nio-8080-exec-29] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+	Caused by: java.lang.ClassNotFoundException: javax.servlet.jsp.jstl.core.Config
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1364)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1187)
+		... 28 more
+07-Jun-2021 16:46:26.775 1100 [http-nio-8080-exec-23] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 16:46:26.780 1100 [http-nio-8080-exec-23] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 16:46:31.291 1100 [http-nio-8080-exec-25] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 16:46:31.292 1100 [http-nio-8080-exec-25] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 16:46:31.351 1100 [http-nio-8080-exec-28] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 16:46:31.352 1100 [http-nio-8080-exec-28] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 16:46:34.094 1100 [http-nio-8080-exec-29] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 16:46:34.096 1100 [http-nio-8080-exec-29] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 16:46:34.185 1100 [http-nio-8080-exec-22] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 16:46:34.186 1100 [http-nio-8080-exec-22] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 16:46:39.804 1100 [http-nio-8080-exec-23] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 16:46:39.805 1100 [http-nio-8080-exec-23] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 16:46:40.677 1100 [http-nio-8080-exec-21] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 16:46:40.677 1100 [http-nio-8080-exec-21] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:02:23.676 1100 [http-nio-8080-exec-24] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:02:23.677 1100 [http-nio-8080-exec-24] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:02:23.772 1100 [http-nio-8080-exec-26] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:02:23.773 1100 [http-nio-8080-exec-26] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:02:23.932 1100 [http-nio-8080-exec-30] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:02:23.932 1100 [http-nio-8080-exec-30] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:26.656 1100 [http-nio-8080-exec-26] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: javax.faces.view.facelets.FaceletException caught during processing of RESTORE_VIEW 1 : UIComponent-ClientId=, Message=Error Parsing /index.xhtml: Error Traced[line: 35] The element type "img" must be terminated by the matching end-tag "</img>".
+07-Jun-2021 17:06:26.656 1100 [http-nio-8080-exec-26] com.sun.faces.context.ExceptionHandlerImpl.log Error Parsing /index.xhtml: Error Traced[line: 35] The element type "img" must be terminated by the matching end-tag "</img>".
+	javax.faces.view.facelets.FaceletException: Error Parsing /index.xhtml: Error Traced[line: 35] The element type "img" must be terminated by the matching end-tag "</img>".
+		at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:487)
+		at com.sun.faces.facelets.compiler.SAXCompiler.doMetadataCompile(SAXCompiler.java:470)
+		at com.sun.faces.facelets.compiler.Compiler.metadataCompile(Compiler.java:130)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.createMetadataFacelet(DefaultFaceletFactory.java:497)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$200(DefaultFaceletFactory.java:107)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:208)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:205)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:100)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:93)
+		at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:100)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:115)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:148)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:63)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:310)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:240)
+		at com.sun.faces.application.view.ViewMetadataImpl.createMetadataView(ViewMetadataImpl.java:146)
+		at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:247)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:133)
+		at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:46.680 1100 [http-nio-8080-exec-24] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:46.682 1100 [http-nio-8080-exec-24] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:46.791 1100 [http-nio-8080-exec-29] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:46.791 1100 [http-nio-8080-exec-29] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:46.975 1100 [http-nio-8080-exec-25] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:46.975 1100 [http-nio-8080-exec-25] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:48.696 1100 [http-nio-8080-exec-23] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:48.696 1100 [http-nio-8080-exec-23] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:51.563 1100 [http-nio-8080-exec-30] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:51.563 1100 [http-nio-8080-exec-30] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:52.363 1100 [http-nio-8080-exec-22] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:52.363 1100 [http-nio-8080-exec-22] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:52.373 1100 [http-nio-8080-exec-28] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:52.373 1100 [http-nio-8080-exec-28] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:52.452 1100 [http-nio-8080-exec-28] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:52.453 1100 [http-nio-8080-exec-28] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:52.523 1100 [http-nio-8080-exec-21] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:52.523 1100 [http-nio-8080-exec-21] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:56.060 1100 [http-nio-8080-exec-25] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:56.060 1100 [http-nio-8080-exec-25] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:56.075 1100 [http-nio-8080-exec-23] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:56.075 1100 [http-nio-8080-exec-23] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:56.752 1100 [http-nio-8080-exec-30] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:56.752 1100 [http-nio-8080-exec-27] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:56.752 1100 [http-nio-8080-exec-30] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:56.753 1100 [http-nio-8080-exec-27] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:59.581 1100 [http-nio-8080-exec-22] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:59.581 1100 [http-nio-8080-exec-22] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:06:59.965 1100 [http-nio-8080-exec-26] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: java.lang.NoClassDefFoundError caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=javax/servlet/jsp/jstl/core/Config
+07-Jun-2021 17:06:59.966 1100 [http-nio-8080-exec-26] com.sun.faces.context.ExceptionHandlerImpl.log javax/servlet/jsp/jstl/core/Config
+	java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+		at com.sun.faces.application.view.JspViewHandlingStrategy.executePageToBuildView(JspViewHandlingStrategy.java:361)
+		at com.sun.faces.application.view.JspViewHandlingStrategy.buildView(JspViewHandlingStrategy.java:130)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 17:53:42.573 WARNING [http-nio-8080-exec-25] com.sun.faces.renderkit.html_basic.OutcomeTargetRenderer.getNavigationCase JSF1090: Navigation case not resolved for component j_idt16.
+07-Jun-2021 17:53:56.043 WARNING [http-nio-8080-exec-22] com.sun.faces.renderkit.html_basic.OutcomeTargetRenderer.getNavigationCase JSF1090: Navigation case not resolved for component j_idt16.
+07-Jun-2021 18:04:28.169 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Jun-2021 18:04:28.171 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 18:04:28.459 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2021 18:04:28.598 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 18:04:28.735 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 18:04:44.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+07-Jun-2021 18:04:44.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+07-Jun-2021 18:04:44.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+07-Jun-2021 18:04:44.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jun-2021 18:04:44.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jun-2021 18:04:44.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jun-2021 18:04:44.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16
+07-Jun-2021 18:04:44.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+07-Jun-2021 18:04:44.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2021 18:04:44.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 18:04:44.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 18:04:44.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jun-2021 18:04:44.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jun-2021 18:04:44.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jun-2021 18:04:44.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jun-2021 18:04:44.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jun-2021 18:04:44.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\logging.properties
+07-Jun-2021 18:04:44.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2021 18:04:44.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-02OJ6L8
+07-Jun-2021 18:04:44.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2021 18:04:44.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2021 18:04:44.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jun-2021 18:04:44.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 18:04:44.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 18:04:44.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\CN Java\projectjava\apache-tomcat-9.0.46\temp
+07-Jun-2021 18:04:44.992 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\cygwin64\bin;C:\Program Files\dotnet\;E:\QT Lite\QTSystem;E:\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Users\Hokichi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hokichi\AppData\Local\GitHubDesktop\bin;C:\Users\Hokichi\AppData\Roaming\npm;C:\Users\Hokichi\spicetify-cli;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16;C:\Users\Hokichi\.jdks\openjdk-16.0.1;\bin;;E:\IntelliJ IDEA Community Edition 2021.1.1\bin;;E:\IntelliJ IDEA 2020.1\bin;;.]
+07-Jun-2021 18:04:45.755 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 18:04:46.157 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1838] milliseconds
+07-Jun-2021 18:04:46.275 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2021 18:04:46.275 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+07-Jun-2021 18:04:46.293 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+07-Jun-2021 18:04:46.318 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+07-Jun-2021 18:04:50.149 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2021 18:04:50.643 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+07-Jun-2021 18:04:51.136 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-Jun-2021 18:04:51.973 INFO [main] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+07-Jun-2021 18:04:52.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [6,639] ms
+07-Jun-2021 18:04:52.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs]
+07-Jun-2021 18:04:53.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs] has finished in [98] ms
+07-Jun-2021 18:04:53.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples]
+07-Jun-2021 18:04:53.989 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples] has finished in [954] ms
+07-Jun-2021 18:04:53.989 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager]
+07-Jun-2021 18:04:54.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager] has finished in [61] ms
+07-Jun-2021 18:04:54.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager]
+07-Jun-2021 18:04:54.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager] has finished in [149] ms
+07-Jun-2021 18:04:54.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT]
+07-Jun-2021 18:04:54.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT] has finished in [345] ms
+07-Jun-2021 18:04:54.650 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 18:04:54.803 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8645] milliseconds
+07-Jun-2021 18:04:56.544 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/projectjava]
+07-Jun-2021 18:04:56.565 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+07-Jun-2021 18:04:56.567 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+07-Jun-2021 18:04:59.166 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2021 18:04:59.632 INFO [http-nio-8080-exec-3] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+07-Jun-2021 18:05:00.091 INFO [http-nio-8080-exec-3] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-Jun-2021 18:05:00.613 INFO [http-nio-8080-exec-3] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+07-Jun-2021 18:05:02.159 WARNING [http-nio-8080-exec-3] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [239] milliseconds.
+07-Jun-2021 18:05:02.174 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [5,609] ms
+07-Jun-2021 18:05:15.351 INFO [http-nio-8080-exec-8] com.sun.faces.application.view.ViewScopeManager.<init> CDI @ViewScoped bean functionality unavailable
+07-Jun-2021 18:10:02.019 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+07-Jun-2021 18:10:06.724 INFO [http-nio-8080-exec-20] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2021 18:10:07.043 INFO [http-nio-8080-exec-20] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+07-Jun-2021 18:10:07.241 INFO [http-nio-8080-exec-20] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-Jun-2021 18:10:07.626 INFO [http-nio-8080-exec-20] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+07-Jun-2021 18:10:07.685 SEVERE [http-nio-8080-exec-20] com.sun.faces.config.ConfigureListener.contextInitialized Critical error during deployment: 
+	java.lang.NoClassDefFoundError: javax/enterprise/context/spi/Contextual
+		at java.base/java.lang.Class.forName0(Native Method)
+		at java.base/java.lang.Class.forName(Class.java:466)
+		at com.sun.faces.util.Util.loadClass(Util.java:333)
+		at com.sun.faces.config.processor.ApplicationConfigProcessor.addSystemEventListener(ApplicationConfigProcessor.java:1032)
+		at com.sun.faces.config.processor.ApplicationConfigProcessor.process(ApplicationConfigProcessor.java:370)
+		at com.sun.faces.config.processor.AbstractConfigProcessor.invokeNext(AbstractConfigProcessor.java:155)
+		at com.sun.faces.config.processor.LifecycleConfigProcessor.process(LifecycleConfigProcessor.java:138)
+		at com.sun.faces.config.processor.AbstractConfigProcessor.invokeNext(AbstractConfigProcessor.java:155)
+		at com.sun.faces.config.processor.FactoryConfigProcessor.process(FactoryConfigProcessor.java:246)
+		at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:443)
+		at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:237)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4714)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5172)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3792)
+		at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1124)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:366)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:667)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:378)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:56)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+	Caused by: java.lang.ClassNotFoundException: javax.enterprise.context.spi.Contextual
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1364)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1187)
+		... 46 more
+07-Jun-2021 18:10:07.732 SEVERE [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+07-Jun-2021 18:10:07.779 SEVERE [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.startInternal Context [/projectjava] startup failed due to previous errors
+07-Jun-2021 18:10:07.856 SEVERE [http-nio-8080-exec-20] com.sun.faces.config.ConfigureListener.contextDestroyed Unexpected exception when attempting to tear down the Mojarra runtime
+	java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "obj" is null
+		at java.base/java.lang.reflect.Method.invoke(Method.java:560)
+		at com.sun.faces.el.ELUtils.addEL3_0_Resolvers(ELUtils.java:334)
+		at com.sun.faces.el.ELUtils.buildFacesResolver(ELUtils.java:258)
+		at com.sun.faces.application.ApplicationAssociate.initializeELResolverChains(ApplicationAssociate.java:503)
+		at com.sun.faces.application.ApplicationImpl.performOneTimeELInitialization(ApplicationImpl.java:1405)
+		at com.sun.faces.application.ApplicationImpl.getELResolver(ApplicationImpl.java:529)
+		at com.sun.faces.config.ConfigureListener.contextDestroyed(ConfigureListener.java:367)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4760)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5418)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:187)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3792)
+		at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1124)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:366)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:667)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:378)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:56)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 18:10:08.069 INFO [43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+07-Jun-2021 18:11:26.322 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Jun-2021 18:11:26.323 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 18:11:26.349 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2021 18:11:26.372 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 18:11:26.387 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 18:11:33.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+07-Jun-2021 18:11:33.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+07-Jun-2021 18:11:33.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+07-Jun-2021 18:11:33.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jun-2021 18:11:33.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jun-2021 18:11:33.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jun-2021 18:11:33.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16
+07-Jun-2021 18:11:33.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+07-Jun-2021 18:11:33.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2021 18:11:33.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 18:11:33.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 18:11:33.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jun-2021 18:11:33.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jun-2021 18:11:33.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jun-2021 18:11:33.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jun-2021 18:11:33.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jun-2021 18:11:33.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\logging.properties
+07-Jun-2021 18:11:33.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2021 18:11:33.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-02OJ6L8
+07-Jun-2021 18:11:33.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2021 18:11:33.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2021 18:11:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jun-2021 18:11:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 18:11:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 18:11:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\CN Java\projectjava\apache-tomcat-9.0.46\temp
+07-Jun-2021 18:11:33.861 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\cygwin64\bin;C:\Program Files\dotnet\;E:\QT Lite\QTSystem;E:\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Users\Hokichi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hokichi\AppData\Local\GitHubDesktop\bin;C:\Users\Hokichi\AppData\Roaming\npm;C:\Users\Hokichi\spicetify-cli;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16;C:\Users\Hokichi\.jdks\openjdk-16.0.1;\bin;;E:\IntelliJ IDEA Community Edition 2021.1.1\bin;;E:\IntelliJ IDEA 2020.1\bin;;.]
+07-Jun-2021 18:11:34.620 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 18:11:34.864 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1551] milliseconds
+07-Jun-2021 18:11:34.961 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2021 18:11:34.961 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+07-Jun-2021 18:11:34.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+07-Jun-2021 18:11:35.054 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+07-Jun-2021 18:11:37.320 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2021 18:11:37.544 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+07-Jun-2021 18:11:37.897 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-Jun-2021 18:11:38.519 INFO [main] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+07-Jun-2021 18:11:39.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [4,378] ms
+07-Jun-2021 18:11:39.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs]
+07-Jun-2021 18:11:39.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs] has finished in [44] ms
+07-Jun-2021 18:11:39.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples]
+07-Jun-2021 18:11:39.974 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples] has finished in [560] ms
+07-Jun-2021 18:11:39.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager]
+07-Jun-2021 18:11:40.040 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager] has finished in [65] ms
+07-Jun-2021 18:11:40.040 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager]
+07-Jun-2021 18:11:40.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager] has finished in [63] ms
+07-Jun-2021 18:11:40.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT]
+07-Jun-2021 18:11:40.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT] has finished in [62] ms
+07-Jun-2021 18:11:40.175 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 18:11:40.192 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5326] milliseconds
+07-Jun-2021 18:11:57.292 INFO [http-nio-8080-exec-6] com.sun.faces.application.view.ViewScopeManager.<init> CDI @ViewScoped bean functionality unavailable
+07-Jun-2021 18:24:39.898 1100 [http-nio-8080-exec-4] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: javax.faces.view.facelets.FaceletException caught during processing of RESTORE_VIEW 1 : UIComponent-ClientId=, Message=Error Parsing /index.xhtml: Error Traced[line: 59] The element type "br" must be terminated by the matching end-tag "</br>".
+07-Jun-2021 18:24:39.899 1100 [http-nio-8080-exec-4] com.sun.faces.context.ExceptionHandlerImpl.log Error Parsing /index.xhtml: Error Traced[line: 59] The element type "br" must be terminated by the matching end-tag "</br>".
+	javax.faces.view.facelets.FaceletException: Error Parsing /index.xhtml: Error Traced[line: 59] The element type "br" must be terminated by the matching end-tag "</br>".
+		at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:487)
+		at com.sun.faces.facelets.compiler.SAXCompiler.doMetadataCompile(SAXCompiler.java:470)
+		at com.sun.faces.facelets.compiler.Compiler.metadataCompile(Compiler.java:130)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.createMetadataFacelet(DefaultFaceletFactory.java:497)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$200(DefaultFaceletFactory.java:107)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:208)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:205)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:100)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:93)
+		at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:100)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:115)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:148)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:63)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:310)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:240)
+		at com.sun.faces.application.view.ViewMetadataImpl.createMetadataView(ViewMetadataImpl.java:146)
+		at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:247)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:133)
+		at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 19:30:40.666 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Jun-2021 19:30:40.754 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 19:30:41.161 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2021 19:30:42.084 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 19:30:42.177 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 20:00:18.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+07-Jun-2021 20:00:18.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+07-Jun-2021 20:00:18.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+07-Jun-2021 20:00:18.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jun-2021 20:00:18.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jun-2021 20:00:18.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jun-2021 20:00:18.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16
+07-Jun-2021 20:00:18.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+07-Jun-2021 20:00:18.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2021 20:00:18.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 20:00:18.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 20:00:18.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jun-2021 20:00:18.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jun-2021 20:00:18.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jun-2021 20:00:18.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jun-2021 20:00:18.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jun-2021 20:00:18.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\logging.properties
+07-Jun-2021 20:00:18.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2021 20:00:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-02OJ6L8
+07-Jun-2021 20:00:18.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2021 20:00:18.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2021 20:00:18.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jun-2021 20:00:18.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 20:00:18.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\CN Java\projectjava\apache-tomcat-9.0.46
+07-Jun-2021 20:00:18.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\CN Java\projectjava\apache-tomcat-9.0.46\temp
+07-Jun-2021 20:00:18.768 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\cygwin64\bin;C:\Program Files\dotnet\;E:\QT Lite\QTSystem;E:\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Users\Hokichi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hokichi\AppData\Local\GitHubDesktop\bin;C:\Users\Hokichi\AppData\Roaming\npm;C:\Users\Hokichi\spicetify-cli;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16;C:\Users\Hokichi\.jdks\openjdk-16.0.1;\bin;;E:\IntelliJ IDEA Community Edition 2021.1.1\bin;;E:\IntelliJ IDEA 2020.1\bin;;.]
+07-Jun-2021 20:00:19.504 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 20:00:20.070 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2073] milliseconds
+07-Jun-2021 20:00:20.228 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2021 20:00:20.228 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+07-Jun-2021 20:00:20.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+07-Jun-2021 20:00:20.286 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+07-Jun-2021 20:00:22.793 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jun-2021 20:00:23.024 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+07-Jun-2021 20:00:23.388 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-Jun-2021 20:00:23.930 INFO [main] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+07-Jun-2021 20:00:24.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [4,510] ms
+07-Jun-2021 20:00:24.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs]
+07-Jun-2021 20:00:24.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs] has finished in [61] ms
+07-Jun-2021 20:00:24.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples]
+07-Jun-2021 20:00:25.730 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples] has finished in [908] ms
+07-Jun-2021 20:00:25.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager]
+07-Jun-2021 20:00:25.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager] has finished in [174] ms
+07-Jun-2021 20:00:25.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager]
+07-Jun-2021 20:00:26.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager] has finished in [221] ms
+07-Jun-2021 20:00:26.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT]
+07-Jun-2021 20:00:26.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT] has finished in [128] ms
+07-Jun-2021 20:00:26.337 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 20:00:26.460 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6389] milliseconds
+07-Jun-2021 20:00:36.585 1100 [http-nio-8080-exec-2] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: javax.faces.view.facelets.FaceletException caught during processing of RESTORE_VIEW 1 : UIComponent-ClientId=, Message=Error Parsing /index.xhtml: Error Traced[line: 23] Attribute name "required" associated with an element type "input" must be followed by the ' = ' character.
+07-Jun-2021 20:00:36.586 1100 [http-nio-8080-exec-2] com.sun.faces.context.ExceptionHandlerImpl.log Error Parsing /index.xhtml: Error Traced[line: 23] Attribute name "required" associated with an element type "input" must be followed by the ' = ' character.
+	javax.faces.view.facelets.FaceletException: Error Parsing /index.xhtml: Error Traced[line: 23] Attribute name "required" associated with an element type "input" must be followed by the ' = ' character.
+		at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:487)
+		at com.sun.faces.facelets.compiler.SAXCompiler.doMetadataCompile(SAXCompiler.java:470)
+		at com.sun.faces.facelets.compiler.Compiler.metadataCompile(Compiler.java:130)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.createMetadataFacelet(DefaultFaceletFactory.java:497)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$200(DefaultFaceletFactory.java:107)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:208)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:205)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:100)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:93)
+		at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:100)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:115)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:148)
+		at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:63)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:310)
+		at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:240)
+		at com.sun.faces.application.view.ViewMetadataImpl.createMetadataView(ViewMetadataImpl.java:146)
+		at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:247)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:133)
+		at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+07-Jun-2021 20:00:55.081 INFO [http-nio-8080-exec-8] com.sun.faces.application.view.ViewScopeManager.<init> CDI @ViewScoped bean functionality unavailable
+07-Jun-2021 21:29:38.608 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Jun-2021 21:29:38.611 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 21:29:38.647 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2021 21:29:39.006 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2021 21:29:39.073 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

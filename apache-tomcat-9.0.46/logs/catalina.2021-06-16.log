@@ -1,0 +1,189 @@
+16-Jun-2021 00:01:32.039 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 00:01:35.096 INFO [http-nio-8080-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 00:01:35.272 INFO [http-nio-8080-exec-41] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 00:01:35.384 INFO [http-nio-8080-exec-41] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 00:01:35.784 INFO [http-nio-8080-exec-41] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 00:01:36.171 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 00:01:36.515 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 00:01:40.057 INFO [http-nio-8080-exec-38] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 00:01:40.239 INFO [http-nio-8080-exec-38] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 00:01:40.378 INFO [http-nio-8080-exec-38] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 00:01:40.834 INFO [http-nio-8080-exec-38] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 00:01:42.009 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 00:04:18.728 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 00:04:22.813 INFO [http-nio-8080-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 00:04:22.966 INFO [http-nio-8080-exec-49] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 00:04:23.079 INFO [http-nio-8080-exec-49] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 00:04:23.441 INFO [http-nio-8080-exec-49] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 00:04:23.868 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 00:05:37.549 INFO [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 00:05:40.395 INFO [http-nio-8080-exec-59] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 00:05:40.527 INFO [http-nio-8080-exec-59] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 00:05:40.727 INFO [http-nio-8080-exec-59] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 00:05:41.184 INFO [http-nio-8080-exec-59] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 00:05:41.827 INFO [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 00:05:52.235 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 00:05:55.263 INFO [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 00:05:55.338 INFO [http-nio-8080-exec-58] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 00:05:55.445 INFO [http-nio-8080-exec-58] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 00:05:55.790 INFO [http-nio-8080-exec-58] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 00:05:56.096 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 00:08:01.963 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 00:08:04.222 INFO [http-nio-8080-exec-67] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 00:08:04.305 INFO [http-nio-8080-exec-67] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 00:08:04.435 INFO [http-nio-8080-exec-67] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 00:08:04.715 INFO [http-nio-8080-exec-67] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 00:08:05.339 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 00:19:30.314 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Jun-2021 00:19:30.314 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Jun-2021 00:19:30.356 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Jun-2021 00:19:30.399 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Jun-2021 00:19:30.454 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Jun-2021 00:23:48.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+16-Jun-2021 00:23:48.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+16-Jun-2021 00:23:48.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+16-Jun-2021 00:23:48.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-Jun-2021 00:23:48.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Jun-2021 00:23:48.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Jun-2021 00:23:48.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16
+16-Jun-2021 00:23:48.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+16-Jun-2021 00:23:48.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Jun-2021 00:23:48.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+16-Jun-2021 00:23:48.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+16-Jun-2021 00:23:48.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Jun-2021 00:23:48.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Jun-2021 00:23:48.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Jun-2021 00:23:48.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Jun-2021 00:23:48.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Jun-2021 00:23:48.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\logging.properties
+16-Jun-2021 00:23:48.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jun-2021 00:23:48.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-02OJ6L8
+16-Jun-2021 00:23:48.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Jun-2021 00:23:48.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jun-2021 00:23:48.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Jun-2021 00:23:48.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\CN Java\projectjava\apache-tomcat-9.0.46
+16-Jun-2021 00:23:48.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\CN Java\projectjava\apache-tomcat-9.0.46
+16-Jun-2021 00:23:48.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\CN Java\projectjava\apache-tomcat-9.0.46\temp
+16-Jun-2021 00:23:48.945 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\cygwin64\bin;C:\Program Files\dotnet\;E:\QT Lite\QTSystem;E:\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Users\Hokichi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hokichi\AppData\Local\GitHubDesktop\bin;C:\Users\Hokichi\AppData\Roaming\npm;C:\Users\Hokichi\spicetify-cli;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16;C:\Users\Hokichi\.jdks\openjdk-16.0.1;\bin;;E:\IntelliJ IDEA Community Edition 2021.1.1\bin;;E:\IntelliJ IDEA 2020.1\bin;;.]
+16-Jun-2021 00:23:49.951 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jun-2021 00:23:50.593 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2390] milliseconds
+16-Jun-2021 00:23:50.836 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jun-2021 00:23:50.837 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+16-Jun-2021 00:23:50.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+16-Jun-2021 00:23:50.902 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/jsf-app-netbeans-example] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has been ignored
+16-Jun-2021 00:23:50.979 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:692)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:829)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2a7ed1f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4830)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4966)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [H:\Download\CN Java\jsf-app-netbeans-example\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:751)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+16-Jun-2021 00:23:50.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has finished in [135] ms
+16-Jun-2021 00:23:50.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+16-Jun-2021 00:23:51.000 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+16-Jun-2021 00:23:55.899 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 00:23:56.083 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 00:23:56.367 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 00:23:57.036 INFO [main] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 00:23:57.973 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [6,987] ms
+16-Jun-2021 00:23:57.974 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs]
+16-Jun-2021 00:23:58.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs] has finished in [137] ms
+16-Jun-2021 00:23:58.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples]
+16-Jun-2021 00:23:59.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples] has finished in [1,399] ms
+16-Jun-2021 00:23:59.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager]
+16-Jun-2021 00:23:59.648 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager] has finished in [136] ms
+16-Jun-2021 00:23:59.648 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager]
+16-Jun-2021 00:23:59.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager] has finished in [126] ms
+16-Jun-2021 00:23:59.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT]
+16-Jun-2021 00:23:59.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT] has finished in [56] ms
+16-Jun-2021 00:23:59.839 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jun-2021 00:23:59.854 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9261] milliseconds
+16-Jun-2021 00:24:10.792 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 00:24:13.336 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 00:24:13.461 INFO [http-nio-8080-exec-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 00:24:13.645 INFO [http-nio-8080-exec-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 00:24:14.034 INFO [http-nio-8080-exec-1] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 00:24:14.499 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 00:24:20.009 INFO [http-nio-8080-exec-9] com.sun.faces.application.view.ViewScopeManager.<init> CDI @ViewScoped bean functionality unavailable
+16-Jun-2021 09:50:07.213 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 09:50:23.307 INFO [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 09:50:23.612 INFO [http-nio-8080-exec-13] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 09:50:23.759 INFO [http-nio-8080-exec-13] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 09:50:24.119 INFO [http-nio-8080-exec-13] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 09:50:24.916 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 09:50:39.492 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 09:50:42.089 INFO [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 09:50:42.188 INFO [http-nio-8080-exec-12] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 09:50:42.293 INFO [http-nio-8080-exec-12] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 09:50:42.716 INFO [http-nio-8080-exec-12] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 09:50:43.340 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 10:01:02.780 INFO [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 10:01:06.358 INFO [http-nio-8080-exec-23] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 10:01:06.578 INFO [http-nio-8080-exec-23] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 10:01:06.734 INFO [http-nio-8080-exec-23] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 10:01:07.164 INFO [http-nio-8080-exec-23] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 10:01:07.741 INFO [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 10:01:19.694 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 10:01:22.763 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 10:01:22.873 INFO [http-nio-8080-exec-25] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 10:01:23.156 INFO [http-nio-8080-exec-25] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 10:01:23.730 INFO [http-nio-8080-exec-25] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 10:01:24.059 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 10:05:09.055 INFO [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] has started
+16-Jun-2021 10:05:11.890 INFO [http-nio-8080-exec-37] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2021 10:05:12.022 INFO [http-nio-8080-exec-37] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+16-Jun-2021 10:05:12.222 INFO [http-nio-8080-exec-37] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Jun-2021 10:05:12.467 INFO [http-nio-8080-exec-37] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+16-Jun-2021 10:05:13.164 INFO [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/projectjava] is completed
+16-Jun-2021 10:05:18.915 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/projectjava]
+16-Jun-2021 10:08:08.686 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Jun-2021 10:08:08.688 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Jun-2021 10:08:08.753 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Jun-2021 10:08:08.775 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Jun-2021 10:08:08.831 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

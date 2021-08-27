@@ -1,0 +1,124 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+        <!-- Login Begin -->
+        <div class="modal fade" id="login">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body login-modal">
+                        <button type="button" class="close" data-dismiss="modal">&#215;</button><br/><br/>
+                        <h4>ĐĂNG NHẬP</h4>
+                        <h:form class="needs-validation pt-3 ">
+                            <div class="form-group ">
+                                <!--<h:inputText class="form-control " id="email " placeholder="Email" required="true"></h:inputText>-->
+                                <p:inputText class="form-control" value="#{userBean.email}" id="email" a:placeholder="Email" required="true"/>
+                            </div>
+                            <div class="form-group ">
+                                <p:password class="form-control"  value="#{userBean.password}" id="pwd" a:placeholder="Mật khẩu " required="true"/>
+                            </div>
+                            <h:commandButton value="Đăng nhập" action="#{userBean.login()}" class="btn btn-outline-primary btn-block" />
+
+                        </h:form>
+
+                        <p class="signup-link ">Chưa có tài khoản ? <a data-dismiss="modal" data-toggle="modal" href="#signup">Đăng kí</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Login end -->
+
+        <!-- Signup Begin -->
+        <div class="modal fade" id="signup">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- Modal body -->
+                    <div class="modal-body login-modal">
+                        <button type="button" class="close" data-dismiss="modal">&#215;</button><br/><br/>
+                        <h4>ĐĂNG KÍ</h4>
+                        <h:form class="needs-validation pt-3">
+
+                            <div class="form-group">
+                                <p:inputText class="form-control" id="uname" a:placeholder="Họ và tên" value="#{userBean.name}" required="true"/>
+                            </div>
+
+                            <div class="form-group">
+                                <p:inputText class="form-control" id="email" a:placeholder="Email" value="#{userBean.email}" required="true"/>
+                            </div>
+
+                            <div class="form-group" style="height: 38px">
+                                <p:password value="#{userBean.password}" feedback="true" styleClass="form-control"
+                                            promptLabel="Vui lòng nhập mật khẩu" weakLabel="Yếu" placeholder="Mật khẩu"
+                                            goodLabel="Trung bình" strongLabel="Mạnh"/>
+                            </div>
+
+                            <div class="form-group" style="height: 38px">
+                                <p:password styleClass="form-control" id="cnfmpwd" a:placeholder="Nhập lại mật khẩu" value="#{userBean.confirmPassword}" required="true"/>
+                            </div>
+
+                            <div class="form-group">
+                                <p:inputText class="form-control" id="phone" a:placeholder="Số điện thoại" value="#{userBean.phone_number}" required="true"/>
+                            </div>
+
+                            <div class="form-group">
+                                <p:inputTextarea class="form-control" id="adr" a:placeholder="Địa chỉ" value="#{userBean.address}" required="true"/>
+                            </div>
+
+                            <h:commandButton actionListener="#{userBean.register()}" value="Đăng kí" styleClass="btn btn-outline-primary btn-block mt-4"/>
+
+                        </h:form>
+
+                        <p class="signup-link ">Đã có tài khoản ? <a data-dismiss="modal" data-toggle="modal" href="#login">Đăng nhập</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Signup end -->
+        
+        <div class="modal fade" id="edit">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- Modal body -->
+                    <div class="modal-body login-modal">
+                        <button type="button" class="close" data-dismiss="modal">&#215;</button><br/><br/>
+                        <h4>Cập nhật thông tin</h4>
+                        <h:form class="needs-validation pt-3">
+                            <div class="form-group">
+                                <h:inputText class="form-control" a:placeholder="Họ và tên" value="#{userBean.name}" required="true"/>
+                            </div>
+
+                            <div class="form-group">
+                                <h:inputText class="form-control" a:placeholder="Email" value="#{userBean.email}" required="true"/>
+                            </div>
+
+                            <div class="form-group">
+                                <h:inputText class="form-control" a:placeholder="Số điện thoại" value="#{userBean.phone_number}" required="true"/>
+                            </div>
+
+                            <div class="form-group">
+                                <h:inputTextarea class="form-control" a:placeholder="Địa chỉ" value="#{userBean.address}" required="true"/>
+                            </div>
+
+                            <div class="form-group" style="height: 38px">
+                                <h:inputSecret class="form-control" a:placeholder="Mật khẩu" value="#{userBean.password}"/>
+                            </div>
+
+                            <div class="form-group" style="height: 38px">
+                                <h:inputSecret class="form-control" a:placeholder="Mật khẩu mới" value="#{userBean.newPassword}"/>
+                            </div>
+
+                            <div class="form-group" style="height: 38px">
+                                <h:inputSecret styleClass="form-control" a:placeholder="Nhập lại mật khẩu" value="#{userBean.confirmPassword}"/>
+                            </div>
+                            <h:commandButton onclick="#{userBean.editInfo()}" value="Cập nhật" styleClass="btn btn-outline-primary btn-block mt-4"/>
+                        </h:form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</ui:composition>

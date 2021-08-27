@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="templates/base.xhtml">
+            <ui:param name = "title" value = "Tin tức" />
+            <!--<ui:define name="header"></ui:define>-->
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+                <div class="container ">
+                    <h:form>
+                            <p:breadCrumb style="border:none; padding-left: 2.6em">
+                                <p:menuitem value="Trang chủ" outcome="index?faces-redirect=true"/>
+                                <p:menuitem value="Tin Tức" outcome="news?faces-redirect=true"/>
+                                <p:menuitem value="Các website học trực tuyến miễn phí tốt nhất thế giới 2021"/>
+                            </p:breadCrumb>
+                        </h:form>
+                    <div class="row news mx-0">
+                        <div class="col-md-8">
+                            <h1>Các website học trực tuyến miễn phí tốt nhất thế giới 2021</h1>
+                            <p><i class="far fa-calendar-alt pr-2"></i><i>28/05/2021</i></p>
+                            <hr/>
+                            <h4>Bạn đang nghỉ dịch Covid19 nhưng không muốn thời gian trôi qua vô ích? Hãy tham khảo ngay các Website học trực tuyến hàng đầu trên thế giới ở mọi lĩnh vực để nâng cao khả năng của mình nhé</h4>
+                            <br/>
+                            <figure>
+                                <img src="resources/img/news/website-hoc-truc-tuyen.jpg" alt="website-hoc-truc-tuyen"/>
+                                <figcaption>Website học trực tuyến</figcaption>
+                            </figure>
+                            <p><b>edX:</b> Học các khóa học online từ các trường đại học tốt nhất trên thế giới. Một trong những khóa học nổi tiếng được hàng trăm ngàn người theo học trên edX là Introduction to Computer Science (Nhập môn Khoa học máy tính – CS50x) của Đại học Harvard. Coursera — Havard</p>
+                            <p><b>Coursera:</b> Học các khóa online miễn phí từ các trường đại học hàng đầu thế giới với nhiều khóa có subtitle tiếng Việt. Bạn có thể chọn gói học miễn phí (vẫn được xem đầy đủ tài liệu, video học) hoặc trả phí (để lấy chứng nhận từ các trường đại học danh tiếng khi hoàn thành khóa học).</p>
+                            <p><b>Khan Academy:</b>  Tổng hợp các khóa học Toán, Lý, Hóa, Kinh tế, Kinh doanh,… hoàn toàn miễn phí với giao diện và trải nghiệm tuyệt vời.</p>
+                            <p><b>Duolingo:</b> Website học ngoại ngữ miễn phí hỗ trợ người học cải thiện trình độ tiếng Anh của mình. Bên cạnh đó đây còn là nơi trao đổi, giao lưu giữa nhiều ngôn ngữ. Nếu bạn tự tin với các ngôn ngữ khác ngoài tiếng Anh như tiếng Pháp, tiếng Trung,…</p>
+                            <p><b>BBC Learning English:</b> Web học tiếng anh miễn phí. Lĩnh vực chính của trang Web này là dạy tiếng anh ở mọi trình độ. Từ mới bắt đầu đến nâng cao, tuy nhiên là Website của nước ngoài không có bản dịch, cho nên bạn cần có trình độ tiếng anh cơ bản để theo dõi các khóa học hữu ích, phong phú ở đây</p>
+                            <p><b>Udacity:</b> Học code và data science từ A đến Z qua video trực quan tuyệt vời từ các chuyên gia của Google, Facebook. Tương tự như Coursera và edX, bạn có thể chọn gói miễn phí (không lấy bằng) hoặc trả phí (để lấy bằng nanodegree làm đòn bẩy cho sự nghiệp).</p>
+                            <p><b>Harvard Online Learning:</b> Web học trực tuyến của trường Đại Học nổi tiếng. Các lĩnh vực mà Harvard Online Learning giảng dạy: Nghệ thuật, Kinh doanh, khoa học máy tính, tài chính, giáo dục, khoa học môi trường, chính phủ/luật và chính trị, lịch sử, nhân học, toán học, dược liệu và sức khỏe, công cộng, tôn giáo và tín ngưỡng, khoa học và kĩ sư, khoa học xã hội,… Harvard Online Learning có cả những khóa học miễn phí và có phí. 
+                                Có một vài khóa học yêu cầu người học phải có bằng cấp, kiến thức hoặc kinh nghiệm làm việc liên quan. </p>
+                            <p><b>Alison:</b> Website học trực tuyến đa dạng lĩnh vực. Các chương trình học của Alison đa dạng như 3 Website trên. Nó được thành lập năm 2007. Các khóa học từ các chuyên gia thậm chí là người bình thường cũng có thể dạy học với ngôn ngữ phong phú. Nhược điểm của Alison là không dạy qua Video như các platform khác. Tuy nhiên, Các học viên sẽ được cấp chứng chỉ (certificate) và đặc biệt là diplome thời hạn 1-2 năm sau khi hoàn tất khóa học.</p>
+                            
+                        </div>
+                        <div class="col-md-4 boardnews pl-5 ">
+                            <h3>Tin tức mới</h3>
+                            <hr/>
+                            <h:link class="row" outcome="review_so_do?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/so_do_bia.jpg" alt="so-do"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Ulibrary Review: Số Đỏ - Vũ Trọng Phụng</p></div>
+                            </h:link>
+                            <h:link class="row" outcome="tiemcovid?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/tiemphongcovid.jpg" alt="anh-tiem-phong-ulibrary"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Toàn bộ nhân viên thư viện ULibrary đã được tiêm Covid</p></div>
+                            </h:link>
+                            <h:link class="row" outcome="notify-reader-support?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/notification.jpg" alt="ho-tro-doc-gia"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Hỗ trợ độc giả trong mùa dịch COVID-19</p></div>
+                            </h:link>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+            <!--<ui:define name="footer"></ui:define>-->
+        </ui:composition>
+    </h:body>
+</html>
+

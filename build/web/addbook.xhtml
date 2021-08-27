@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+<h:head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <title>Nhập sách</title>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/logo.png" />
+    <link rel="icon" type="image/x-icon" href="resources/images/logo.png" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"/>
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css"/>
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css"/>
+</h:head>
+
+<h:body id="page-top">
+    <div id="wrapper">
+        <ui:include src="templates/admin_sidebar.xhtml"/>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content" style="margin-top: 30px">
+                <div class="container-fluid" style="margin-top: 30px">
+                    <h3 class="text-dark mb-1">Nhập thông tin sách</h3>
+                </div>
+                <div></div>
+                <div class="container" style="margin-top: 34px;">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h:form enctype="multipart/form-data">
+                                <h1 style="font-size: 23px;color: rgb(40,45,47);">Thông tin về sách</h1>
+				<h:outputLabel style="margin-top: 9px;color: rgb(35,40,47);">Tiêu đề sách</h:outputLabel>
+                                    <h:inputText value="#{bookBean.title}" class="form-control" style="margin-top: -9px;width: 439px;"></h:inputText>
+                                <h:outputLabel style="margin-top: 9px;color: rgb(35,40,47);">Tác giả</h:outputLabel>
+                                <div>
+                                    <h:selectManyListbox class="form-control" style="width: 439px; height: 100px; display: inline" value="#{bookBean.author}" converter="AuthorConv">
+                                        <f:selectItems var="author" value="#{authorBean.authors}"
+                                                           itemLabel="#{author.name}"
+                                                           itemValue="#{author}"></f:selectItems>
+                                    </h:selectManyListbox>
+                                </div>
+                                <h:outputLabel style="margin-top: 9px;color: rgb(35,40,47);">Năm xuất bản</h:outputLabel>
+                                    <h:inputText value="#{bookBean.publishYear}" class="form-control" style="width: 439px;"></h:inputText>
+                                    <h:outputLabel style="margin-top: 9px;color: rgb(35,40,47);">Nhà xuất bản</h:outputLabel>
+                                    <h:selectOneMenu class="form-control" style="width: 439px;" value="#{bookBean.pub}" converter="PubConv">
+                                        <f:selectItems var="publ" value="#{pubBean.pubs}"
+                                                           itemLabel="#{publ.name}"
+                                                           itemValue="#{publ}"></f:selectItems>
+                                    </h:selectOneMenu>
+                                <h:outputLabel style="margin-top: 9px;color: rgb(35,40,47);">Mô tả</h:outputLabel>
+                                    <h:inputTextarea value="#{bookBean.description}" class="form-control" style="width: 439px"></h:inputTextarea>
+                                <h:outputLabel style="margin-top: 9px;color: rgb(35,40,47);">Ngôn ngữ</h:outputLabel>
+                                <h:selectOneMenu class="form-control" style="width: 439px;" value="#{bookBean.lang}" converter="LangConv">
+                                        <f:selectItems var="lang" value="#{langBean.langs}"
+                                                       itemLabel="#{lang.name}"
+                                                       itemValue="#{lang}"></f:selectItems>
+                                    </h:selectOneMenu>
+                                <h:outputLabel style="margin-top: 9px;color: rgb(35,40,47);">Thể loại</h:outputLabel>
+                                    <h:selectOneMenu class="form-control" style="width: 439px;" value="#{bookBean.genre}" converter="GenreConv">
+                                        <f:selectItems var="genre" value="#{genreBean.genres}"
+                                                       itemLabel="#{genre.name}"
+                                                       itemValue="#{genre}"></f:selectItems>
+                                    </h:selectOneMenu>
+                                <h:outputLabel style="margin-top: 9px;color: rgb(35,40,47)">Ảnh bìa</h:outputLabel>
+                                <div>
+                                    <h:inputFile value="#{bookBean.img}" style="margin-top: -9px; width: 439px; position: relative"></h:inputFile>
+                                </div>
+                                <h:inputHidden value="#{bookBean.id}"/>
+                                <c:if test="#{facesContext.externalContext.requestParameterMap.get('bookid') != null}">
+                                    <h:commandButton class="btn btn-primary" action="#{bookBean.addBook()}" value="Cập nhật" style="margin-top: 20px;"/>
+                                </c:if>
+                                <c:if test="#{facesContext.externalContext.requestParameterMap.get('bookid') == null}">
+                                    <h:commandButton class="btn btn-primary" action="#{bookBean.addBook()}" value="Thêm sách" style="margin-top: 20px;"/>
+                                </c:if>
+                            </h:form>
+                        </div>
+                        <c:if test="#{facesContext.externalContext.requestParameterMap.get('bookid') != null}">
+                            <h:form>
+                                <div class="col">
+                                    <h1 style="font-size: 23px;color: rgb(40,45,47);">Thông tin về bản vật lý</h1>
+                                        <h:outputLabel style="margin-top: 9px;color: rgb(35,40,47);">Tiêu đề sách</h:outputLabel>
+                                        <h:inputText value="#{bookBean.copyCount}" class="form-control" style="margin-top: -9px;width: 439px;"></h:inputText>
+                                        <h:outputLabel style="margin-top: 9px;color: rgb(35,40,47);">Tác giả</h:outputLabel>
+                                        <div>
+                                            <h:selectOneMenu class="form-control" style="width: 439px; display: inline" 
+                                                                 value="#{bookBean.shelf}" converter="AuthorConv">
+                                                <f:selectItems var="shelf" value="#{shelfBean.shelves}"
+                                                                   itemLabel="#{shelf.name}"
+                                                                   itemValue="#{shelf}"></f:selectItems>
+                                            </h:selectOneMenu>
+                                        </div>
+                                    <h:commandButton class="btn btn-primary" action="#{bookBean.addPhysCopy()}" value="Cập nhật" style="margin-top: 20px;"/>
+                                </div>
+                            </h:form>
+                        </c:if>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © Brand 2021</span></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/theme.js"></script>
+</h:body>
+
+</html>

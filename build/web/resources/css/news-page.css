@@ -1,0 +1,219 @@
+.news a {
+    text-decoration: none;
+}
+
+
+header.masthead {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(8rem + 57px);
+  padding-bottom: 8rem;
+  background: no-repeat center center;
+  background-color: #6c757d;
+  background-size: cover;
+  background-attachment: scroll;
+}
+header.masthead:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #212529;
+  opacity: 0.5;
+}
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  color: #fff;
+}
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+header.masthead .page-heading h1, header.masthead .page-heading .h1,
+header.masthead .site-heading h1,
+header.masthead .site-heading .h1 {
+  font-size: 3rem;
+}
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin-top: 0.625rem;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block;
+}
+header.masthead .post-heading .subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.75rem 0 2rem;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading .meta {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading .meta a {
+  color: #fff;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: 12.5rem;
+    padding-bottom: 12.5rem;
+  }
+  header.masthead .page-heading h1, header.masthead .page-heading .h1,
+header.masthead .site-heading h1,
+header.masthead .site-heading .h1 {
+    font-size: 2rem;
+  }
+  header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+    font-size: 3rem;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 1.875rem;
+  }
+}
+
+/*.section-heading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 3.75rem;
+}*/
+
+.caption {
+  font-size: 0.875rem;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 0.625rem;
+  text-align: center;
+}
+
+.post-preview > a {
+  color: #212529;
+}
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #0085A1;
+}
+.post-preview > a > .post-title {
+  font-size: 1.875rem;
+  margin-top: 1.875rem;
+  margin-bottom: 0.625rem;
+}
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+  margin-bottom: 0.625rem;
+}
+.post-preview > .post-meta {
+  font-size: 1.125rem;
+  font-style: italic;
+  margin-top: 0;
+  color: #6c757d;
+}
+.post-preview > .post-meta > a {
+  text-decoration: none;
+}
+@media (min-width: 992px) {
+  .post-preview > a > .post-title {
+    font-size: 2.25rem;
+  }
+}
+
+header.masthead h1 {
+    color: #fff;
+}
+
+              .news {
+                    font-size: 1.2em;
+                    line-height: 2em;                   
+                    background: #fff;
+                    padding: 1.5em 1.5em;
+                    
+                }
+                .news hr{
+                    background: #FF7E67;
+                    border: 2px solid #FF7E67;
+                    width: 3em;
+                    margin-left: 0;
+                }
+                
+                .news a{
+                    color: #000;
+                    
+                }
+                
+                .news .card {
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+                height: 19em;
+                margin-bottom: 1.5em;
+                }
+                .news .card img{
+                    height: 12em;
+                }
+                .news h5{
+                    font-weight: 600;
+                    margin-bottom: 1em;
+                }
+                .news a:hover h5{
+                    color: #07689F;
+                }
+                
+           
+                
+                .news h1{
+                    color: #07689F;
+                    font-size: 2em;
+                    margin-bottom: 0.5em;
+                    font-weight: 800;
+                }
+                .news p {
+                    font-size: 1em;
+                    text-align:justify;
+                }
+                
+                .news h4 {
+                    font-weight: 600;
+                    text-align:justify;
+                }
+                
+                
+                .boardnews p{
+                    font-size:1em;
+                }
+                .boardnews h3{
+                    color:#07689F;
+                    font-weight: 600;
+                }
+                
+                .boardnews a:hover p{
+                    color: #07689F;
+                }
+                
+                figure img{
+                    width: 100%;
+                    
+                }
+                
+                figcaption{
+                    font-style:italic;
+                    text-align: center;
+                    padding-top: 0.2em;
+                }
+                .linktodetail {
+                    color: #07689F;
+                }

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="templates/base.xhtml">
+            <ui:param name = "title" value = "Tin tức" />
+            <!--<ui:define name="header"></ui:define>-->
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+                <div class="container ">
+                    <div class="container ">
+                        <h:form>
+                            <p:breadCrumb style="border:none; padding-left: 2.6em">
+                                <p:menuitem value="Trang chủ" outcome="index?faces-redirect=true"/>
+                                <p:menuitem value="Tin Tức" outcome="news?faces-redirect=true"/>
+                                <p:menuitem value="Thư viện ULibrary chính thức đi vào hoạt động"/>
+                            </p:breadCrumb>
+                        </h:form>
+                        <div class="row news mx-0">
+                            <div class="col-md-8">
+                                <h1>Thư viện ULibrary chính thức đi vào hoạt động </h1>
+                                <p><i class="far fa-calendar-alt pr-2"></i><i>03/04/2021</i></p>
+                                <hr/>
+                                <h4>Để đáp ứng nhu cầu học tập, nghiên cứu giảng dạy của sinh viên và giảng viên, vào ngày 30/5/2021 thư viện ULibrary đã chính thức đi vào hoạt động </h4>
+                                <br/>
+                                <p>Với mục tiêu cung cấp cho sinh viên không gian học tập lý tưởng, thu viện được trang bị cơ sở vật chất hiện đại, chú trọng nguồn chiếu sáng giúp đảm bảo thị lực cho người đọc, tạo cảm giác thoải mái cho sinh viên học tập và thảo luận </p>
+                                <figure>
+                                    <img src="resources/img/news/thuvienhoatdong.jpg" alt="anh-trang-web-ulibrary"/>
+                                    <figcaption>Không gian học tập tại ULibrary</figcaption>
+                                </figure>
+
+                                <p>Thư viện lưu trữ khối lượng sách lớn thuộc nhiều lĩnh vực khoa học – xã hội, lịch sử, nghệ thuật, kỹ năng cùng đa dạng đầu sách của các học giả nổi tiếng, những tác phẩm kinh điển, hay những cuốn giáo trình, luận văn, luận án, … giúp cho sinh viên, giảng viên dễ dàng tra cứu, thoải mái lựa chọn, tìm hiểu thêm về đời sống xã hội, nghiên cứu khoa học hay cung cấp tài liệu tham khảo cho các môn học trên lớp. </p>
+                                <figure>
+                                    <img src="resources/img/news/ulibraryhoatdong.jpg" alt="hoc-trong-thu-vien-ulibrary"></img>
+                                    <figcaption>Trang web ULibrary</figcaption>
+                                </figure>
+                                <h4>Lịch hoạt động của thư viện</h4>
+
+                                <ul class="pl-4 pt-2">
+                                    <li><strong>Thứ 2 - Thứ 6:</strong> 7h00 - 21h00</li>
+                                    <li><strong>Thứ 7: </strong>8h00 - 17h00</li>
+                                    <li><strong>Chủ Nhật và các ngày lễ lớn:</strong> Nghỉ</li> 
+                                </ul>
+                            </div>
+                            <div class="col-md-4 boardnews pl-5 ">
+                                <h3>Tin tức mới</h3>
+                                <hr/>
+                                <h:link class="row" outcome="review_so_do?faces-redirect=true">
+                                    <div class="col-md-4 mb-3"><img src="resources/img/news/so_do_bia.jpg" alt="so-do"/></div>
+                                    <div class="col-md-8 pl-0 mb-3"><p>Ulibrary Review: Số Đỏ - Vũ Trọng Phụng</p></div>
+                                </h:link>
+                                <h:link class="row" outcome="tiemcovid?faces-redirect=true">
+                                    <div class="col-md-4 mb-3"><img src="resources/img/news/tiemphongcovid.jpg" alt="anh-tiem-phong-ulibrary"/></div>
+                                    <div class="col-md-8 pl-0 mb-3"><p>Toàn bộ nhân viên thư viện ULibrary đã được tiêm Covid</p></div>
+                                </h:link>
+                                <h:link class="row" outcome="notify-reader-support?faces-redirect=true">
+                                    <div class="col-md-4 mb-3"><img src="resources/img/news/notification.jpg" alt="ho-tro-doc-gia"/></div>
+                                    <div class="col-md-8 pl-0 mb-3"><p>Hỗ trợ độc giả trong mùa dịch COVID-19</p></div>
+                                </h:link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+            <!--<ui:define name="footer"></ui:define>-->
+        </ui:composition>
+    </h:body>
+</html>
+

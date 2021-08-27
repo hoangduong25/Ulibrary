@@ -1,0 +1,6 @@
+<img src="" style="width: 100%; height: 100px; margin-bottom: 50px">
+<h1>Xác nhận địa chỉ email</h1>
+<p class="pt-4">Bạn vừa đăng kí tài khoản tại trang web ULibrary. Vui lòng đi đến đường link sau để xác nhận tài khoản:</p>
+<a href="localhost:8080/projectjava/activation.xhtml?key=#{userBean.userHash}">localhost:8080/projectjava/activation.xhtml?key=#{userBean.userHash}</a>
+<p>Nếu bạn không yêu cầu mã này thì bạn có thể bỏ qua email này một cách an toàn. Có thể ai đó khác đã nhập địa chỉ email của bạn do nhầm lẫn.</p>
+<p>Xin cảm ơn, <br>Thư viện ULibrary</p>

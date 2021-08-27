@@ -1,0 +1,724 @@
+30-Jun-2021 07:16:14.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+30-Jun-2021 07:16:14.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+30-Jun-2021 07:16:14.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+30-Jun-2021 07:16:14.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Jun-2021 07:16:14.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Jun-2021 07:16:14.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jun-2021 07:16:14.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16
+30-Jun-2021 07:16:14.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+30-Jun-2021 07:16:14.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jun-2021 07:16:14.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+30-Jun-2021 07:16:14.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+30-Jun-2021 07:16:14.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Jun-2021 07:16:14.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Jun-2021 07:16:14.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Jun-2021 07:16:14.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Jun-2021 07:16:14.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Jun-2021 07:16:14.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\logging.properties
+30-Jun-2021 07:16:14.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2021 07:16:14.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-02OJ6L8
+30-Jun-2021 07:16:14.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2021 07:16:14.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2021 07:16:14.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jun-2021 07:16:14.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\CN Java\projectjava\apache-tomcat-9.0.46
+30-Jun-2021 07:16:14.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\CN Java\projectjava\apache-tomcat-9.0.46
+30-Jun-2021 07:16:14.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\CN Java\projectjava\apache-tomcat-9.0.46\temp
+30-Jun-2021 07:16:14.744 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\cygwin64\bin;C:\Program Files\dotnet\;E:\QT Lite\QTSystem;E:\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Users\Hokichi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hokichi\AppData\Local\GitHubDesktop\bin;C:\Users\Hokichi\AppData\Roaming\npm;C:\Users\Hokichi\spicetify-cli;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16;C:\Users\Hokichi\.jdks\openjdk-16.0.1;\bin;;E:\IntelliJ IDEA Community Edition 2021.1.1\bin;;E:\IntelliJ IDEA 2020.1\bin;;.]
+30-Jun-2021 07:16:16.519 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Jun-2021 07:16:17.206 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3340] milliseconds
+30-Jun-2021 07:16:17.400 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2021 07:16:17.400 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+30-Jun-2021 07:16:17.423 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+30-Jun-2021 07:16:17.463 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/jsf-app-netbeans-example] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has been ignored
+30-Jun-2021 07:16:19.255 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:692)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:829)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jsf-app-netbeans-example]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [/faces/*.] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3214)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5077)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+30-Jun-2021 07:16:19.272 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has finished in [1,849] ms
+30-Jun-2021 07:16:19.272 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+30-Jun-2021 07:16:19.300 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+30-Jun-2021 07:16:28.673 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2021 07:16:28.994 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+30-Jun-2021 07:16:29.485 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+30-Jun-2021 07:16:30.346 INFO [main] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+30-Jun-2021 07:16:32.402 INFO [main] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 10.0.0-RC1
+30-Jun-2021 07:16:32.527 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [119] milliseconds.
+30-Jun-2021 07:16:33.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [13,730] ms
+30-Jun-2021 07:16:33.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs]
+30-Jun-2021 07:16:33.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs] has finished in [65] ms
+30-Jun-2021 07:16:33.071 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples]
+30-Jun-2021 07:16:34.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples] has finished in [1,893] ms
+30-Jun-2021 07:16:34.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager]
+30-Jun-2021 07:16:35.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager] has finished in [104] ms
+30-Jun-2021 07:16:35.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager]
+30-Jun-2021 07:16:35.196 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager] has finished in [126] ms
+30-Jun-2021 07:16:35.196 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT]
+30-Jun-2021 07:16:35.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT] has finished in [53] ms
+30-Jun-2021 07:16:35.256 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Jun-2021 07:16:35.314 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18106] milliseconds
+30-Jun-2021 07:16:51.218 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.5.0.Final
+30-Jun-2021 07:16:51.851 INFO [http-nio-8080-exec-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jun-2021 07:16:52.309 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 07:16:52.324 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 07:16:52.325 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 07:16:52.326 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 07:16:52.334 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 07:16:52.805 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 07:16:54.928 INFO [http-nio-8080-exec-1] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 07:16:58.695 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 07:16:58.838 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 07:16:58.839 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 07:16:58.839 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 07:16:58.839 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 07:16:58.840 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 07:16:58.910 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 07:16:58.965 INFO [http-nio-8080-exec-1] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 07:16:59.349 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 07:16:59.358 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 07:16:59.358 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 07:16:59.359 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 07:16:59.360 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 07:16:59.360 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 07:16:59.413 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 07:16:59.475 INFO [http-nio-8080-exec-1] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 07:16:59.813 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 07:16:59.843 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 07:16:59.844 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 07:16:59.844 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 07:16:59.845 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 07:16:59.845 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 07:17:00.152 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 07:17:00.196 INFO [http-nio-8080-exec-1] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 07:17:00.381 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 08:58:22.159 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 08:58:22.578 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 08:58:22.579 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 08:58:22.579 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 08:58:22.579 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 08:58:25.905 INFO [http-nio-8080-exec-8] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 08:58:26.752 INFO [http-nio-8080-exec-8] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 08:58:30.489 INFO [http-nio-8080-exec-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 08:58:36.177 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jun-2021 08:58:36.480 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jun-2021 08:58:36.851 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jun-2021 08:58:38.884 INFO [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [Faces Servlet]
+30-Jun-2021 08:58:40.049 INFO [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [Faces Servlet]
+30-Jun-2021 08:58:41.239 INFO [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [Faces Servlet]
+30-Jun-2021 08:58:42.174 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [projectjava] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2021 08:58:42.249 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base@16/sun.nio.ch.SocketDispatcher.read0(Native Method)
+ java.base@16/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+ java.base@16/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+ java.base@16/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+ java.base@16/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+ java.base@16/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+ java.base@16/java.net.Socket$SocketInputStream.read(Socket.java:976)
+ com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+ com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+ com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+ java.base@16/java.io.FilterInputStream.read(FilterInputStream.java:132)
+ com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+ com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+ com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+ com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+ com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+ com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+ com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+ com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:540)
+ com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:710)
+ com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:649)
+ com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:951)
+ com.mysql.cj.NativeSession.execSQL(NativeSession.java:1075)
+ com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+ com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+ org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+ org.hibernate.loader.Loader.getResultSet(Loader.java:2292)
+ org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2045)
+ org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2007)
+ org.hibernate.loader.Loader.doQuery(Loader.java:943)
+ org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:344)
+ org.hibernate.loader.Loader.doList(Loader.java:2838)
+ org.hibernate.loader.Loader.doList(Loader.java:2820)
+ org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2652)
+ org.hibernate.loader.Loader.list(Loader.java:2647)
+ org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:506)
+ org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+ org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219)
+ org.hibernate.internal.SessionImpl.list(SessionImpl.java:1443)
+ org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+ org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+ org.hibernate.query.Query.getResultList(Query.java:165)
+ org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+ com.projectjava.service.GenreService.getGenres(GenreService.java:31)
+ com.projectjava.bean.GenreBean.getGenres(GenreBean.java:41)
+ java.base@16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ java.base@16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+ java.base@16/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@16/java.lang.reflect.Method.invoke(Method.java:567)
+ javax.el.BeanELResolver.getValue(BeanELResolver.java:88)
+ com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:180)
+ com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:208)
+ org.apache.el.parser.AstValue.getValue(AstValue.java:169)
+ org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190)
+ com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:115)
+ com.sun.faces.facelets.component.UIRepeat.getValue(UIRepeat.java:314)
+ com.sun.faces.facelets.component.UIRepeat.getDataModel(UIRepeat.java:256)
+ com.sun.faces.facelets.component.UIRepeat.setIndex(UIRepeat.java:508)
+ com.sun.faces.facelets.component.UIRepeat.process(UIRepeat.java:558)
+ com.sun.faces.facelets.component.UIRepeat.encodeChildren(UIRepeat.java:1111)
+ javax.faces.component.UIComponent.encodeAll(UIComponent.java:1905)
+ javax.faces.component.UIComponent.encodeAll(UIComponent.java:1908)
+ javax.faces.component.UIComponent.encodeAll(UIComponent.java:1908)
+ com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:491)
+ com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:194)
+ com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:126)
+ com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+ com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+ javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@16/java.lang.Thread.run(Thread.java:831)]
+30-Jun-2021 08:58:42.274 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/java.lang.Object.wait(Native Method)
+ java.base@16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 08:58:42.275 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 08:58:42.276 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 08:58:42.277 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 08:58:42.332 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 08:58:42.332 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 08:58:42.334 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [projectjava] created a ThreadLocal with key of type [com.sun.faces.application.ApplicationAssociate$1] (value [com.sun.faces.application.ApplicationAssociate$1@33cbd883]) and a value of type [com.sun.faces.application.ApplicationAssociate] (value [com.sun.faces.application.ApplicationAssociate@735b2605]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2021 08:58:42.335 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [projectjava] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4a1a9f57]) and a value of type [com.sun.faces.context.FacesContextImpl] (value [com.sun.faces.context.FacesContextImpl@6b2cbea]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2021 08:58:42.335 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [projectjava] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6bd0047f]) and a value of type [com.sun.faces.application.view.WriteBehindStateWriter] (value [com.sun.faces.application.view.WriteBehindStateWriter@41116c0e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2021 08:58:42.335 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [projectjava] created a ThreadLocal with key of type [javax.faces.context.FacesContext$1] (value [javax.faces.context.FacesContext$1@18ea91d7]) and a value of type [org.primefaces.context.PrimeFacesContext] (value [org.primefaces.context.PrimeFacesContext@5fefb35c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Jun-2021 08:58:42.440 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jun-2021 08:58:44.305 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1037)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 08:58:44.919 INFO [http-nio-8080-exec-8] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.hibernate.loader.Loader$SqlStatementWrapper]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.hibernate.loader.Loader$SqlStatementWrapper]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1187)
+		at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2054)
+		at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2007)
+		at org.hibernate.loader.Loader.doQuery(Loader.java:943)
+		at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:344)
+		at org.hibernate.loader.Loader.doList(Loader.java:2838)
+		at org.hibernate.loader.Loader.doList(Loader.java:2820)
+		at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2652)
+		at org.hibernate.loader.Loader.list(Loader.java:2647)
+		at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:506)
+		at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+		at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219)
+		at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1443)
+		at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+		at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+		at org.hibernate.query.Query.getResultList(Query.java:165)
+		at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+		at com.projectjava.service.GenreService.getGenres(GenreService.java:31)
+		at com.projectjava.bean.GenreBean.getGenres(GenreBean.java:41)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:88)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:180)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:208)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:169)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:115)
+		at com.sun.faces.facelets.component.UIRepeat.getValue(UIRepeat.java:314)
+		at com.sun.faces.facelets.component.UIRepeat.getDataModel(UIRepeat.java:256)
+		at com.sun.faces.facelets.component.UIRepeat.setIndex(UIRepeat.java:508)
+		at com.sun.faces.facelets.component.UIRepeat.process(UIRepeat.java:558)
+		at com.sun.faces.facelets.component.UIRepeat.encodeChildren(UIRepeat.java:1111)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1905)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1908)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1908)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:491)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:194)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:126)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 08:58:46.432 INFO [http-nio-8080-exec-8] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.util.function.BiConsumer]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.util.function.BiConsumer]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1187)
+		at org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl.releaseResources(ResourceRegistryStandardImpl.java:323)
+		at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.afterTransaction(AbstractLogicalConnectionImplementor.java:60)
+		at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.afterTransaction(LogicalConnectionManagedImpl.java:167)
+		at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.afterTransaction(JdbcCoordinatorImpl.java:275)
+		at org.hibernate.internal.SessionImpl.afterOperation(SessionImpl.java:543)
+		at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1448)
+		at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+		at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+		at org.hibernate.query.Query.getResultList(Query.java:165)
+		at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+		at com.projectjava.service.GenreService.getGenres(GenreService.java:31)
+		at com.projectjava.bean.GenreBean.getGenres(GenreBean.java:41)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:88)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:180)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:208)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:169)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:115)
+		at com.sun.faces.facelets.component.UIRepeat.getValue(UIRepeat.java:314)
+		at com.sun.faces.facelets.component.UIRepeat.getDataModel(UIRepeat.java:256)
+		at com.sun.faces.facelets.component.UIRepeat.setIndex(UIRepeat.java:508)
+		at com.sun.faces.facelets.component.UIRepeat.process(UIRepeat.java:558)
+		at com.sun.faces.facelets.component.UIRepeat.encodeChildren(UIRepeat.java:1111)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1905)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1908)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1908)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:491)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:194)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:126)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 08:58:47.545 WARNING [main] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+30-Jun-2021 08:58:47.611 INFO [http-nio-8080-exec-8] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [javax.faces.event.ExceptionQueuedEventContext]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [javax.faces.event.ExceptionQueuedEventContext]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1187)
+		at com.sun.faces.lifecycle.Phase.queueException(Phase.java:155)
+		at com.sun.faces.lifecycle.Phase.queueException(Phase.java:148)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:103)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:223)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 08:58:47.897 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Jun-2021 08:58:59.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+30-Jun-2021 08:58:59.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+30-Jun-2021 08:58:59.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+30-Jun-2021 08:58:59.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Jun-2021 08:58:59.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Jun-2021 08:58:59.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jun-2021 08:58:59.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-16
+30-Jun-2021 08:58:59.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           16+36-2231
+30-Jun-2021 08:58:59.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jun-2021 08:58:59.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+30-Jun-2021 08:58:59.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\CN Java\projectjava\apache-tomcat-9.0.46
+30-Jun-2021 08:58:59.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Jun-2021 08:58:59.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Jun-2021 08:58:59.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Jun-2021 08:58:59.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Jun-2021 08:58:59.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Jun-2021 08:58:59.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\logging.properties
+30-Jun-2021 08:58:59.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2021 08:58:59.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-02OJ6L8
+30-Jun-2021 08:58:59.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2021 08:58:59.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2021 08:58:59.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jun-2021 08:58:59.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\CN Java\projectjava\apache-tomcat-9.0.46
+30-Jun-2021 08:58:59.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\CN Java\projectjava\apache-tomcat-9.0.46
+30-Jun-2021 08:58:59.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\CN Java\projectjava\apache-tomcat-9.0.46\temp
+30-Jun-2021 08:58:59.813 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\cygwin64\bin;C:\Program Files\dotnet\;E:\QT Lite\QTSystem;E:\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Users\Hokichi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hokichi\AppData\Local\GitHubDesktop\bin;C:\Users\Hokichi\AppData\Roaming\npm;C:\Users\Hokichi\spicetify-cli;C:\Users\Hokichi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16;C:\Users\Hokichi\.jdks\openjdk-16.0.1;\bin;;E:\IntelliJ IDEA Community Edition 2021.1.1\bin;;E:\IntelliJ IDEA 2020.1\bin;;.]
+30-Jun-2021 08:59:01.496 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Jun-2021 08:59:04.630 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [8465] milliseconds
+30-Jun-2021 08:59:05.644 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2021 08:59:05.645 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+30-Jun-2021 08:59:06.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+30-Jun-2021 08:59:06.184 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/jsf-app-netbeans-example] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has been ignored
+30-Jun-2021 08:59:16.302 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:692)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:829)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jsf-app-netbeans-example]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [/faces/*.] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3214)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5077)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+30-Jun-2021 08:59:16.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\jsf-app-netbeans-example.xml] has finished in [10,361] ms
+30-Jun-2021 08:59:16.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml]
+30-Jun-2021 08:59:16.934 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projectjava] in deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has been ignored
+30-Jun-2021 08:59:51.935 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jun-2021 08:59:52.660 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.3.9 ( 20190401-1936 77894020e94a338c9701619b7ef6e9871c5a9079) for context '/projectjava'
+30-Jun-2021 08:59:53.919 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+30-Jun-2021 08:59:55.328 INFO [main] net.bootsfaces.listeners.AddResourcesListener.<clinit> This application is running on BootsFaces 1.5.0-
+30-Jun-2021 08:59:57.542 INFO [main] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 10.0.0-RC1
+30-Jun-2021 08:59:57.699 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [153] milliseconds.
+30-Jun-2021 09:00:01.276 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.5.0.Final
+30-Jun-2021 09:00:07.073 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jun-2021 09:00:07.790 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 09:00:07.807 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 09:00:07.808 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 09:00:07.808 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 09:00:07.815 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 09:00:10.401 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 09:00:16.521 INFO [main] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 09:00:19.601 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 09:00:19.806 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 09:00:19.808 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 09:00:19.809 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 09:00:19.809 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 09:00:19.810 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 09:00:20.336 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 09:00:20.400 INFO [main] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 09:00:20.727 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 09:00:20.732 WARN [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 09:00:20.732 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 09:00:20.733 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 09:00:20.733 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 09:00:20.734 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 09:00:21.305 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 09:00:21.372 INFO [main] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 09:00:21.692 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 09:00:22.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\CN Java\projectjava\apache-tomcat-9.0.46\conf\Catalina\localhost\projectjava.xml] has finished in [65,939] ms
+30-Jun-2021 09:00:22.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs]
+30-Jun-2021 09:00:22.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\docs] has finished in [82] ms
+30-Jun-2021 09:00:22.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples]
+30-Jun-2021 09:00:29.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\examples] has finished in [6,603] ms
+30-Jun-2021 09:00:29.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager]
+30-Jun-2021 09:00:29.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\host-manager] has finished in [409] ms
+30-Jun-2021 09:00:29.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager]
+30-Jun-2021 09:00:29.675 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\manager] has finished in [81] ms
+30-Jun-2021 09:00:29.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT]
+30-Jun-2021 09:00:30.033 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\CN Java\projectjava\apache-tomcat-9.0.46\webapps\ROOT] has finished in [357] ms
+30-Jun-2021 09:00:30.038 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Jun-2021 09:00:30.270 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [85640] milliseconds
+30-Jun-2021 09:00:45.028 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 09:00:45.031 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 09:00:45.032 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 09:00:45.032 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 09:00:45.033 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 09:00:46.145 INFO [http-nio-8080-exec-7] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 09:00:46.195 INFO [http-nio-8080-exec-7] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 09:00:46.598 INFO [http-nio-8080-exec-7] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 09:11:08.512 WARN [http-nio-8080-exec-22] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 09:11:08.513 INFO [http-nio-8080-exec-22] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 09:11:08.514 INFO [http-nio-8080-exec-22] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 09:11:08.514 INFO [http-nio-8080-exec-22] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 09:11:08.514 INFO [http-nio-8080-exec-22] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 09:11:08.735 INFO [http-nio-8080-exec-22] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 09:11:08.829 INFO [http-nio-8080-exec-22] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 09:11:09.202 INFO [http-nio-8080-exec-22] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 09:12:11.196 WARN [http-nio-8080-exec-22] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jun-2021 09:12:11.196 INFO [http-nio-8080-exec-22] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?useSSL=false]
+30-Jun-2021 09:12:11.197 INFO [http-nio-8080-exec-22] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+30-Jun-2021 09:12:11.198 INFO [http-nio-8080-exec-22] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jun-2021 09:12:11.198 INFO [http-nio-8080-exec-22] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jun-2021 09:12:11.238 INFO [http-nio-8080-exec-22] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Jun-2021 09:12:11.279 INFO [http-nio-8080-exec-22] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jun-2021 09:12:11.545 INFO [http-nio-8080-exec-22] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jun-2021 09:24:40.407 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jun-2021 09:24:40.408 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jun-2021 09:24:40.447 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jun-2021 09:24:42.348 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [projectjava] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jun-2021 09:24:42.349 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/java.lang.Object.wait(Native Method)
+ java.base@16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 09:24:42.350 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 09:24:42.350 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 09:24:42.351 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 09:24:42.386 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 09:24:42.387 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 09:24:42.388 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projectjava] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16/java.lang.Thread.run(Thread.java:831)
+30-Jun-2021 09:24:42.398 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jun-2021 09:24:42.426 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

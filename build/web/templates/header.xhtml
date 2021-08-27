@@ -1,0 +1,76 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+                xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+
+        <!-- navbar begin -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h:link class="navbar-brand px-3" outcome="index?faces-redirect=true">
+                <div class="row">
+                    <img src="resources/img/library.svg" style="width: 1.6rem"/>
+                    <div class="text-logo">
+                        <span> U</span>Library
+                    </div>
+                </div>
+            </h:link>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                         <h:link outcome="index?faces-redirect=true"  class="nav-link">Trang chủ</h:link>
+           
+                    </li>
+                    <li class="nav-item">
+                        <h:link outcome="library?faces-redirect=true"  class="nav-link">Tra cứu</h:link>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <h:link outcome="service?faces-redirect=true"  class="nav-link">Dịch vụ</h:link>
+                    </li>
+                    <li class="nav-item">
+                        <h:link outcome="news?faces-redirect=true"  class="nav-link">Tin tức</h:link>
+                    </li>
+                    <li class="nav-item">
+                        <h:link outcome="contact?faces-redirect=true"  class="nav-link">Liên hệ</h:link>
+                    </li>
+                    <li class="nav-item">
+                        <h:link outcome="about?faces-redirect=true"  class="nav-link">Về ULibrary</h:link>
+                    </li>
+                </ul>
+                <h:form class="form-inline my-2 my-lg-0 mr-3">
+                    <h:inputText class="form-control" a:placeholder="Tìm kiếm" value="#{bookBean.kw}"/>
+                    <p:commandButton class="btn btn-outline" icon="fa fa-search" action="#{bookBean.search()}"
+                                  style="background-color: #07689F; height: 42px"/>
+                </h:form>
+                <c:if test="#{facesContext.externalContext.sessionMap.get('user') != null}">
+                    <button type="button" class="avt dropdown">
+                    <a class="nav-link dropdown-toggle user-icon" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="resources/img/user.png" alt="avatar"/></a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <h:link outcome="user">
+                                <h:outputText class="dropdown-item" value="Thông tin tài khoản"/>
+                            </h:link>
+                            <a class="dropdown-item" href="#">Đổi mật khẩu</a>
+                            <h:form>
+                                <h:commandLink class="dropdown-item" action="#{userBean.logout()}" value="Đăng xuất"/>
+                            </h:form>
+                        </div>
+                    </button>
+                    <h:link outcome="checkout.xhtml"><i class="pi pi-shopping-cart" style="font-size: 1.5em;"/></h:link>
+                </c:if>
+                <c:if test="#{facesContext.externalContext.sessionMap.get('user') == null}">
+                    <button type="button" class="btn btn-outline-info" data-dismiss="modal" data-toggle="modal" data-target="#login">Đăng nhập</button>
+                </c:if>
+            </div>
+        </nav>
+        <ui:include src="modal.xhtml"></ui:include>
+    </header>
+</ui:composition>
+
+

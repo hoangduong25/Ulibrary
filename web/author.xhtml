@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <h:body>
+        <ui:composition template="templates/base.xhtml">  
+            <ui:param name = "title" value = "Tra cứu" />
+            <ui:define name="carousel"></ui:define>
+
+            <ui:define name="content">
+                <div class="search-form">
+                    <div class="container">
+                        <!-- search begin -->
+                        <div class="form-group form-inline">
+                            <select class="form-control mr-3" id="exampleFormControlSelect1" style="width: 10em;">
+                                <option>Bất kì</option>
+                                <option>Tiêu đề</option>
+                                <option>Tác giả</option>
+                                <option>Năm xuất bản</option>
+                                <option>Nhà xuất bản</option>
+                                <option>Chủ đề</option>
+                            </select>
+                            <!-- <label for="exampleFormControlSelect1">Example select</label> -->
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search"/>
+                                <div class="input-group-append">
+                                    <button class="btn btn-search" type="submit"><i class="fa fa-search" style="color: #fff;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- search end -->
+                    </div>
+                </div>
+                <div class="section-content my-4">
+                    <div class="container">
+                        <div class="row list-book">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="filter-group">
+                                        <div class="card-header">
+                                            <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
+                                                <i class="icon-control fa fa-chevron-down"></i>
+                                                <h6 class="title">Thể loại</h6>
+                                            </a>
+                                        </div>
+                                        <div class="filter-content collapse show" id="collapse_1">
+                                            <div class="card-body">
+                                                <ul class="list-menu">
+                                                    <ui:repeat var="genre" value="#{genreBean.genres}">
+                                                        <li>
+                                                            <h:link includeViewParams="true" outcome="genre?faces-redirect=true">
+                                                                <f:param name="genreid" value="#{genre.id}" />
+                                                                <h:outputText value="#{genre.name}"/>
+                                                            </h:link>
+                                                        </li>
+                                                    </ui:repeat>
+                                                </ul>
+
+                                            </div>
+                                            <!--card-body.//--> 
+                                        </div>
+                                    </div>
+                                    <!--filter-group  .//--> 
+                                    <div class="filter-group">
+                                        <div class="card-header">
+                                            <a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+                                                <i class="icon-control fa fa-chevron-down"></i>
+                                                <h6 class="title">Sách được mượn nhiều </h6>
+                                            </a>
+                                        </div>
+                                        <div class="filter-content collapse show" id="collapse_2">
+                                            <div class="card-body list-format">
+
+                                                <ul class="list-menu">
+                                                    <li>
+                                                        <h:link outcome="details?faces-redirect=true">
+                                                            <img src="resources/img/book/bookJava.jpg" alt="" style="width: 5rem;"/>
+                                                            <div>
+                                                                <h5>Java: A beginner's guide eight edition</h5>
+                                                            </div>
+                                                        </h:link>
+
+                                                    </li>
+                                                    <hr/>
+                                                    <li>
+                                                        <h:link outcome="details?faces-redirect=true">
+                                                            <img src="resources/img/book/bookJava.jpg" alt="" style="width: 5rem;"/>
+                                                            <div>
+                                                                <h5>Java: A beginner's guide eight edition</h5>
+                                                            </div>
+                                                        </h:link>
+                                                    </li>
+                                                    <hr/>
+                                                    <li>
+                                                        <h:link outcome="details?faces-redirect=true">
+                                                            <img src="resources/img/book/bookJava.jpg" alt="" style="width: 5rem;"/>
+                                                            <div>
+                                                                <h5>Java: A beginner's guide eight edition</h5>
+                                                            </div>
+                                                        </h:link>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <!--card-body.//--> 
+                                        </div>
+                                    </div>
+                                    <!--filter-group .//--> 
+                                </div>
+                                <!-- card.// -->
+                            </div>
+                            <!-- col.// -->
+                            <div class="col-md-8">
+                                <div class="pb-3">
+                                    <div class="form-inline">
+                                    </div>
+                                    <!-- sect-heading -->
+                                    <div class="product card" style="margin-top: 10px">
+                                        <h:form id="form">
+                                            <p:dataView var = "book" value="#{authorBean.books}" flex="true">
+                                                <p:dataViewListItem>
+                                                    <div class="book-list-item" style="margin-top: 5px; margin-bottom: 5px">
+                                                        <h:link  includeViewParams="true" outcome="details?faces-redirect=true">
+                                                            <f:param name="bookid" value="#{book.id}" />
+                                                            <p:graphicImage value="resources/img/book/#{book.cover}" style="width: 120px; height: 150px; object-fit: cover"/>
+                                                        </h:link>
+                                                        <div class="book-list-detail" style="display: inline-block; margin-left: 20px">
+                                                            <div class="book-name" style="font-weight: bold; overflow: hidden">#{book.title}</div>
+                                                            <div class="book-description">
+                                                                <ui:repeat value="#{book.author}" var="author" varStatus="loop">
+                                                                    <h:link includeViewParams="true" outcome="author?faces-redirect=true">
+                                                                        <f:param name="authorid" value="#{author.id}" />
+                                                                        <h:outputText value="#{author.name}#{not loop.last ? ', ' : ''} "/>
+                                                                    </h:link>
+                                                                </ui:repeat>
+                                                            </div>
+                                                            <i class="pi pi-tag book-category-icon" style="margin-top: 10px"/><span
+                                                                class="book-genre"> #{book.genre.name}</span>
+                                                        </div>
+                                                    </div>
+                                                </p:dataViewListItem>
+                                            </p:dataView>
+                                        </h:form>
+                                    </div>
+                                </div>
+                                <!-- col.// -->
+                            </div>
+                        </div>
+                        <!-- container .//  -->
+                    </div>
+                </div>
+
+                <!-- Content end -->
+            </ui:define>
+        </ui:composition>
+    </h:body>
+
+</html>
+

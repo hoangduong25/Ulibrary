@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="templates/base.xhtml">
+            <ui:param name = "title" value = "Tin tức" />
+            <!--<ui:define name="header"></ui:define>-->
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+                <div class="container ">
+                    <h:form>
+                            <p:breadCrumb style="border:none; padding-left: 2.6em">
+                                <p:menuitem value="Trang chủ" outcome="index?faces-redirect=true"/>
+                                <p:menuitem value="Tin Tức" outcome="news?faces-redirect=true"/>
+                                <p:menuitem value="Ngày hội trao đổi sách Trao sách nhận yêu thương"/>
+                            </p:breadCrumb>
+                        </h:form>
+                    <div class="row news mx-0">
+                        <div class="col-md-8">
+                            <h1>Ngày hội trao đổi sách "Trao sách nhận yêu thương" </h1>
+                            <p><i class="far fa-calendar-alt pr-2"></i><i>24/04/2021</i></p>
+                            <hr/>
+                            <p>Ngày hội "Trao sách nhận yêu thương" là một sự kiện mang đến cho các bạn trẻ một sân chơi tinh thần với chuỗi hoạt động ý nghĩa về sách. 
+                                Đến với ngày hội, bạn trẻ được hòa mình vào không khí náo nhiệt, gặp gỡ những người bạn có cùng sở thích đọc sách và tham gia những hoạt động như tọa đàm, đêm nhạc... Đặc biệt thu hút đa số bạn trẻ là hoạt động trao đổi sách.</p>
+                            <p>Ngày hội diễn ra vô cùng náo nhiệt với sự tham gia của hàng ngàn bạn trẻ với rất nhiều sách được mang đến. Để trao đổi sách, các bạn trẻ mang sách của mình đến quầy làm một số thủ tục giao sách, ghi danh và nhận thẻ tích điểm. 
+                                Sau đó, các bạn sẽ đến những gian sách đã được bố trí sẵn, lựa những quyển sách ưng ý để mang về. Có rất nhiều gian hàng sách được phân loại riêng theo từng thể loại giúp các bạn dễ dàng lựa chọn như tiểu thuyết, truyện ngắn, tản văn ...</p>
+                            <figure>
+                                <img src="resources/img/news/traodoisach.jpg" alt="traodoisach"/>
+                                <figcaption>Hình ảnh các bạn trẻ trao đổi sách</figcaption>
+                            </figure>
+      
+                        </div>
+                        <div class="col-md-4 boardnews pl-5 ">
+                            <h3>Tin tức mới</h3>
+                            <hr/>
+                            <h:link class="row" outcome="review_so_do?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/so_do_bia.jpg" alt="so-do"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Ulibrary Review: Số Đỏ - Vũ Trọng Phụng</p></div>
+                            </h:link>
+                            <h:link class="row" outcome="tiemcovid?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/tiemphongcovid.jpg" alt="anh-tiem-phong-ulibrary"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Toàn bộ nhân viên thư viện ULibrary đã được tiêm Covid</p></div>
+                            </h:link>
+                            <h:link class="row" outcome="notify-reader-support?faces-redirect=true">
+                                <div class="col-md-4 mb-3"><img src="resources/img/news/notification.jpg" alt="ho-tro-doc-gia"/></div>
+                                <div class="col-md-8 pl-0 mb-3"><p>Hỗ trợ độc giả trong mùa dịch COVID-19</p></div>
+                            </h:link>
+                        </div>
+                    </div>
+                </div>
+            </ui:define>
+            <!--<ui:define name="footer"></ui:define>-->
+        </ui:composition>
+    </h:body>
+</html>
+
+
+
+

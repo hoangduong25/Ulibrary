@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" style="margin: 0px;"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+        <title>Chi tiết sách | ULIBRARY</title>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/logo.png" />
+        <link rel="icon" type="image/x-icon" href="resources/images/logo.png" />
+        <link rel="stylesheet" href="resources/bootstrap/css/details.bootstrap.min.css"></link>
+        <link rel="stylesheet" href="resources/fonts/font-awesome.min.css"></link>
+        <link rel="stylesheet" href="resources/fonts/ionicons.min.css"></link>
+        <link rel="stylesheet" href="resources/css/Footer-Clean.css"></link>
+        <link rel="stylesheet" href="resources/css/Highlight-Clean.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"></link>
+        <link rel="stylesheet" href="resources/css/Login-Form-Clean.css"></link>
+        <link rel="stylesheet" href="resources/css/Media-Slider-Bootstrap-3-1.css"></link>
+        <link rel="stylesheet" href="resources/css/Media-Slider-Bootstrap-3.css"></link>
+        <link rel="stylesheet" href="resources/css/Navigation-with-Search.css"></link>
+        <link rel="stylesheet" href="resources/css/Simple-Slider.css"></link>
+        <link rel="stylesheet" href="resources/css/styles.css"></link>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+              />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+              />
+        <link rel="stylesheet" href="resources/css/style.css"></link>
+
+    </head>
+
+    <body>
+        <!-- navbar begin -->
+
+        <!-- navbar end -->
+        <ui:composition template="templates/base.xhtml">
+            <ui:param name = "title" value = "Thông tin sách" />
+            <ui:define name="carousel"></ui:define>
+            <ui:define name="content">
+                <div class="card">
+                    <h:form>
+                        <p:breadCrumb style="padding-left: 5em">
+                            <p:menuitem value="Thư viện"/>
+                            <p:menuitem value="Thông tin sách"/>
+                            <p:menuitem value="#{bookBean.title}"/>
+                        </p:breadCrumb>
+                    </h:form>
+                </div>
+                <div>
+                    <div class="container bg-white px-5">
+                        <div class="row mt-4 ">
+                            <div class="col-md-5"><img src="resources/img/book/#{bookBean.cover}" style="height: 600px; object-fit: cover"></img></div>
+                            <div class="col-md-7" style="font-weight: 700 ;color: #07689F;">
+                                <label class="form-label text-start" style="margin-left: 8px;font-size: 2rem;font-weight: 600px;">#{bookBean.title}</label>
+                                <div><i class="fa fa-heart-o" style="font-size: 32px;margin-left: 9px;line-height: 23px;margin-bottom: 26px;"></i><i class="fa fa-share-alt" style="font-size: 32px;margin-left: 26px;line-height: 23px;margin-bottom: 26px;"></i></div>
+                                <div>
+                                    <p style="color: rgb(27,27,27);font-size: 1.5em;margin-left: 42px;font-weight: 400;text-align: left;line-height: 50.5px;">
+                                        <strong>Tác giả: </strong> 
+                                        <ui:repeat value="#{bookBean.author}" var="author" varStatus="loop">
+                                            <h:outputText value="#{author.name}#{not loop.last ? ', ' : ''} "/>
+                                        </ui:repeat><br/>
+                                        <strong>Nhà xuất bản:</strong> #{bookBean.pub.name}<br/>
+                                        <strong>Năm xuất bản:</strong> #{bookBean.publishYear}<br/>
+                                        <strong>Ngôn ngữ:</strong> #{bookBean.lang.name}<br/>
+                                        <strong>Thể loại:</strong> #{bookBean.genre.name}
+                                    </p>
+                                </div>
+                                
+                                <div><h:commandButton class="btn btn-primary" type="button" style="width: 169.5px;height: 61px;font-size: 26px;margin-left: 44px; background: #07689F"
+                                                      action="#{cartBean.addToCart(book.id, book.title, book.cover)}" disabled="#{userBean.loggedIn()}" value="Mượn"></h:commandButton></div>
+                            </div>
+                        </div>
+                        <div class="bg-white" style="margin-top: 2rem">
+                    <div>
+                        <label class="form-label" style="font-size: 2rem;font-weight: 700;color: #07689F;">Tóm tắt nội dung</label>
+                    </div>
+                    <div style="margin-right: 64px;">
+                        <p>#{bookBean.description}</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <h:form rendered="#{bookBean.isBookedOnline(bookBean.id)}">
+                        <p:media value="/resources/pdf/#{bookBean.onlineCopy}" width="85%" height="600px" player="pdf" style="margin: auto; display: block"/>
+                    </h:form>
+                </div>
+
+                    <div class="slider-book py-5">
+                        <div class="container bg-white">
+                            <h4>Sách liên quan</h4>
+                            <hr/>
+                            <div class="slider-book row slider">
+                                <c:forEach var="book" items="#{bookBean.getBooks(bookBean.genre)}">
+                                    <c:if test="#{book.id != bookBean.id}">
+                                        <div class="col-md-2">
+                                            <div class="card slide-detail" style="height: 250px !important">
+                                                    <h:link includeViewParams="true" outcome="details?faces-redirect=true">
+                                                        <img class="card-img-top" src="resources/img/book/#{book.cover}" alt="Card image" style="width: 100px; height: 150px; object-fit: cover; object-position: top; display: block; margin: auto"/>
+                                                        <f:param name="bookid" value="#{book.id}"/>
+                                                    </h:link>
+                                                <div class="card-body">
+                                                    <h:commandButton class="btn btn-primary stretched-link" style="vertical-align: text-bottom;" action="#{cartBean.addToCart(book.id, book.title, book.cover)}" disabled="#{userBean.loggedIn()}" value="Mượn"></h:commandButton>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </c:if>
+                                </c:forEach>
+                            </div>
+                        </div>
+                    </div>
+            </ui:define>
+        </ui:composition>
+        <!-- Footer begin -->
+        <footer>
+            <div class="container">
+                <div class="footer-content row">
+                    <div class="col-md-3 col-sm-6 col-xs-6 footer-item">
+                        <a href="#">
+                            <div class="row">
+                                <img src="resources/img/library.svg" style="width: 3.5rem"/>
+                                <div class="text-logo">
+                                    <span> U</span>Library
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="pt-3">
+                            <li><i class="fas fa-map-marker-alt"></i> ĐH CNTT khu phố 6, Linh Trung, Thủ Đức</li>
+                            <li><i class="fas fa-envelope"></i> nhom26@gmail.com </li>
+                            <li><i class="fas fa-phone"></i> 0543698429 </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 footer-item ">
+                        <h4>Về ULibrary</h4>
+                        <hr/>
+                        <ul>
+                            <li><a href="service.html ">Dịch vụ</a></li>
+                            <li><a href="library.html">Thư viện</a></li>
+                            <li><a href="# ">Quy định - Hướng dẫn</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 footer-item ">
+                        <h4>Giờ hoạt động</h4>
+                        <hr/>
+                        <ul>
+                            <li><strong>Thứ 2 - Thứ 6:</strong> 7h00 - 21h00</li>
+                            <li><strong>Thứ 7: </strong>8h00 - 17h00</li>
+                            <li><strong>Chủ Nhật và các ngày lễ lớn:</strong> Nghỉ</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 footer-item-social ">
+                        <h4>Theo dõi tại</h4>
+                        <hr/>
+                        <ul>
+                            <li><a href="#"><span class="iconify" data-inline="false" data-icon="logos:facebook" style="font-size: 40px;"></span></a></li>
+                            <li><a href="#"><span class="iconify" data-inline="false" data-icon="logos:twitter" style="font-size: 40px;"></span></a></li>
+                            <li>
+                                <a href="#"><img src="resources/img/instagram-icon.svg" alt=" " style="width: 40px; "/></a>
+                            </li>
+                            <li><a href="#"><span class="iconify" data-inline="false" data-icon="grommet-icons:google" style="font-size: 40px;"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cpy-right">
+                <p>© 2021 ULibrary. All rights reserved
+                </p>
+            </div>
+
+        </footer>
+
+        <!-- Footer end -->
+        <script src="resources/bootstrap/js/details.bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+        <script src="resources/js/Media-Slider-Bootstrap-3.js"></script>
+        <script src="resources/js/Simple-Slider.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="resources/js/main.js "></script>
+    </body>
+
+</html>
